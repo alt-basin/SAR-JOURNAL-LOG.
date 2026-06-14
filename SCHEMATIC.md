@@ -7,5 +7,11 @@
   control and flight time, using a 4s could enable me to lower cost by buying a 45A esc 4-in-1, at the same time it could have a longer flight time
   enough to showcase the drones capabilities.
 
+14/06/2026 9:35
+  Below me is the schematic for the drone, which includes the parts needed for it to be full automated, so lets start one by one.
+  for this dorone i will be using a ESP32-S3-WROOM-N16R8-1 as the flight control, and i will be using a 45A esc 4-in-1.
+  
+   SENSORS:
+    MPU6050 - this acts as the IMU which will be determining the yaw, roll, and pitch. i may not be using the accelonometer as vibrations cause drift
   ![Image](images/image1.png)
   
