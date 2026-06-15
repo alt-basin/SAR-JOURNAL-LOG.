@@ -8,7 +8,7 @@
    - Uangel X2807 1300Kv
    - 6s 5200mah XT60
 
-# 14/06/2026 9:35
+# 14/06/2026 9:35 am
   
   Below me is the schematic for the drone, which includes the parts needed for it to be full automated, so lets start one by one.
   for this dorone i will be using a ESP32-S3-WROOM-N16R8-1 as the flight control, and i will be using a 45A esc 4-in-1.
@@ -23,7 +23,7 @@
 
   below me is the Schematic for the drone, this includes the connection for each sensor to function
   
-  ![Image](images/image1.png)
+  <img width="605" height="562" alt="Screenshot 2026-06-11 200743" src="https://github.com/user-attachments/assets/af78e5a9-d560-40a3-a7d0-d05206c7846e" />
 
   here are the links for the sensors and stuff
    - https://shopee.ph/product/933050849/26220013460?d_id=665be&uls_trackid=55tbhe3r02fa&utm_content=4B6UvNMwYFsYjngtwRRPe7ygZQL7
@@ -34,4 +34,15 @@
 
   by the way heres the battery
    - https://shopee.ph/product/1729536151/57358540563?d_id=665be&rModelId=128464625546&uls_trackid=55tbic1603c9&utm_content=4B6UvNMwYGNBeaRxWx9MwH5XYdpK
+
+# 15/06/2026 8:28 pm 
+
+  I just finished building the frame when the m3 nuts arrived, below me is the showcase
+  in multiple angles.
+  
+  <img width="2048" height="1289" alt="c05a2e44-0346-4d8f-9d85-8e693a4ecb37" src="https://github.com/user-attachments/assets/f830b4bb-87ad-4105-bba7-587b4fd0105a" />
+<img width="2048" height="1080" alt="51f45b0d-6c06-419b-8082-c667ce248333" src="https://github.com/user-attachments/assets/c1e46a0f-3564-4fb7-b8f5-38b5e1ce30d4" />
+<img width="2048" height="1149" alt="b290c748-67dc-41cf-a960-94b504ee50dd" src="https://github.com/user-attachments/assets/c97fdf34-7f96-4b94-ab0f-5ec8b3d143d8" />
+
+
   
