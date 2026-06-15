@@ -8,6 +8,10 @@
    - Uangel X2807 1300Kv
    - 6s 5200mah XT60
 
+<img width="1468" height="880" alt="7df4a46b-1eed-4ec3-b51c-5aaf73f997b2" src="https://github.com/user-attachments/assets/40fe4ef9-3b4f-493a-aecb-d6235808feec" />
+<img width="1344" height="900" alt="e7acb897-12b7-4c4b-9561-0c1f1995207d" src="https://github.com/user-attachments/assets/5a8e8c9a-11cf-4d64-85b2-32eefddaecbe" />
+
+ 
 # 14/06/2026 9:35 am
   
   Below me is the schematic for the drone, which includes the parts needed for it to be full automated, so lets start one by one.
