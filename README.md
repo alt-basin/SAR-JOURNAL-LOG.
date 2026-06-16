@@ -12,7 +12,7 @@ this is were the drones summary of documentation will be located, be reminded th
  ### HARDWARE OVERVIEW
  Here is the list of the hardware i plan to use.
  
- Esc: 1 quantity
+45A 4-in-1 Esc: 1 quantity
   - https://shopee.ph/product/933050849/26220013460?d_id=665be&uls_trackid=55tbhe3r02fa&utm_content=4B6UvNMwYFsYjngtwRRPe7ygZQL7
 
 VL53L1X wth lid: 1 quantity
