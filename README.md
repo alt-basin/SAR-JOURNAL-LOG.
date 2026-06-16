@@ -32,7 +32,7 @@ BMI323: 1 quantity
   
    - https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM
 
-Battery: 1 quantity
+4s 3200mah 60c lipo Battery: 1 quantity
 
    - https://shopee.ph/product/1729536151/57358540563?d_id=665be&rModelId=128464625546&uls_trackid=55tbic1603c9&utm_content=4B6UvNMwYGNBeaRxWx9MwH5XYdpK
 
@@ -40,7 +40,20 @@ Battery: 1 quantity
 
 **Perception system**
 
-Inputs
+*Inputs*
 
- - (IMU) BMI323 - will be used as the sensor to determine the 
+ - **(IMU) BMI323** - Will be used as the sensor to determine the Yaw, Roll, and Pitch of the drone, <br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;As well the movement of the drone by using its built in accelometer.
    
+ - **(OPTICAL FLOW) PMW3901** - Will be used as the sensor for the drone to be able to determine its velocity mid air.
+
+ - **(LIDAR SENSOR) VL53L1X** - This will serve as the main sensor for the drone to know its current altitude,<br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;though this sensor is weak outdoors, testing and showcasing would be done indoors.
+
+ - **(THERMAL CAMERA/IR CAMERA) MLX90640** - This would be used as the camera for mapping the area in thermal images.
+ 
+*What this subsystem does:*
+
+ - Collects raw data
+ - Filters noise
+ - Syncs timestamps
