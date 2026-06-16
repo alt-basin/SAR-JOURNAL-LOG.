@@ -10,7 +10,7 @@ this is were the drones summary of documentation will be located, be reminded th
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
  ### HARDWARE OVERVIEW
- Here is the list of the hardware i plan to use, may also be used as the bill of materials.
+ Here is the list of the hardware i plan to use, it may also be used as the bill of materials.
  
 45A 4-in-1 Esc: 1 quantity
 
