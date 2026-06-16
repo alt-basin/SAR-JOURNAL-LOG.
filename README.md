@@ -10,9 +10,10 @@ this is were the drones summary of documentation will be located, be reminded th
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
  ### HARDWARE OVERVIEW
- Here is the list of the hardware i plan to use.
+ Here is the list of the hardware i plan to use, may also be used as the bill of materials.
  
 45A 4-in-1 Esc: 1 quantity
+
   - https://shopee.ph/product/933050849/26220013460?d_id=665be&uls_trackid=55tbhe3r02fa&utm_content=4B6UvNMwYFsYjngtwRRPe7ygZQL7
 
 VL53L1X wth lid: 1 quantity
@@ -34,3 +35,12 @@ BMI323: 1 quantity
 Battery: 1 quantity
 
    - https://shopee.ph/product/1729536151/57358540563?d_id=665be&rModelId=128464625546&uls_trackid=55tbic1603c9&utm_content=4B6UvNMwYGNBeaRxWx9MwH5XYdpK
+
+### SYSTEM OVERVIEW
+
+**Perception system**
+
+Inputs
+
+ - (IMU) BMI323 - will be used as the sensor to determine the 
+   
