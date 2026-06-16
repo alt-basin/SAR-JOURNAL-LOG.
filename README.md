@@ -30,7 +30,7 @@ PMW3901
 
 MPU-6050
   
-   - https://shopee.ph/product/580325202/25288429666?d_id=665be&rModelId=139141964813&uls_trackid=55tbi5i500ca&utm_content=4B6UvNMwYGGiNivNa4zPTo6BQm5H
+   - https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM
 
 Battery: 
 
