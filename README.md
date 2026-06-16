@@ -9,4 +9,29 @@ this is were the drones summary of documentation will be located, be reminded th
 
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
-    
+ ### HARDWARE OVERVIEW
+ Here is the list of the hardware i plan to use.
+ 
+ Esc:
+
+  - https://shopee.ph/product/933050849/26220013460?d_id=665be&uls_trackid=55tbhe3r02fa&utm_content=4B6UvNMwYFsYjngtwRRPe7ygZQL7
+
+VL53L1X wth lid:
+
+   - https://shopee.ph/product/1032050598/22974977435?d_id=665be&rModelId=29401872399&uls_trackid=55tbhrg500c9&utm_content=4B6UvNMwYG7zeCY1TZ1jQJtB12tF
+
+MLX90640BAA
+
+   - https://shopee.ph/product/56540719/23154817594?d_id=665be&rModelId=225632712882&uls_trackid=55tbhuhe00ee&utm_content=4B6UvNMwYGAsUJDXUgrRfQpPxLrb
+
+PMW3901 
+ 
+   - https://shopee.ph/product/1538176896/43426280197?d_id=665be&rModelId=435101552007&uls_trackid=55tbi1jt02fa&utm_content=4B6UvNMwYGDiyaxJLcSYjr8GmYUP
+
+MPU-6050
+  
+   - https://shopee.ph/product/580325202/25288429666?d_id=665be&rModelId=139141964813&uls_trackid=55tbi5i500ca&utm_content=4B6UvNMwYGGiNivNa4zPTo6BQm5H
+
+Battery: 
+
+   - https://shopee.ph/product/1729536151/57358540563?d_id=665be&rModelId=128464625546&uls_trackid=55tbic1603c9&utm_content=4B6UvNMwYGNBeaRxWx9MwH5XYdpK
