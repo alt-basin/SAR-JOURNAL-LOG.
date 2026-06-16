@@ -12,26 +12,25 @@ this is were the drones summary of documentation will be located, be reminded th
  ### HARDWARE OVERVIEW
  Here is the list of the hardware i plan to use.
  
- Esc:
-
+ Esc: 1 quantity
   - https://shopee.ph/product/933050849/26220013460?d_id=665be&uls_trackid=55tbhe3r02fa&utm_content=4B6UvNMwYFsYjngtwRRPe7ygZQL7
 
-VL53L1X wth lid:
+VL53L1X wth lid: 1 quantity
 
    - https://shopee.ph/product/1032050598/22974977435?d_id=665be&rModelId=29401872399&uls_trackid=55tbhrg500c9&utm_content=4B6UvNMwYG7zeCY1TZ1jQJtB12tF
 
-MLX90640BAA
+MLX90640BAA: 1 quantity
 
    - https://shopee.ph/product/56540719/23154817594?d_id=665be&rModelId=225632712882&uls_trackid=55tbhuhe00ee&utm_content=4B6UvNMwYGAsUJDXUgrRfQpPxLrb
 
-PMW3901 
+PMW3901: 1 quantity
  
    - https://shopee.ph/product/1538176896/43426280197?d_id=665be&rModelId=435101552007&uls_trackid=55tbi1jt02fa&utm_content=4B6UvNMwYGDiyaxJLcSYjr8GmYUP
 
-MPU-6050
+BMI323: 1 quantity
   
    - https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM
 
-Battery: 
+Battery: 1 quantity
 
    - https://shopee.ph/product/1729536151/57358540563?d_id=665be&rModelId=128464625546&uls_trackid=55tbic1603c9&utm_content=4B6UvNMwYGNBeaRxWx9MwH5XYdpK
