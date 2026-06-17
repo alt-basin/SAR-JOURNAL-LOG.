@@ -42,7 +42,7 @@
 
 # 15/06/2026 8:28 pm 
 
-  The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
+ - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
   <img width="2048" height="1289" alt="c05a2e44-0346-4d8f-9d85-8e693a4ecb37" src="https://github.com/user-attachments/assets/f830b4bb-87ad-4105-bba7-587b4fd0105a" />
 <img width="2048" height="1080" alt="51f45b0d-6c06-419b-8082-c667ce248333" src="https://github.com/user-attachments/assets/c1e46a0f-3564-4fb7-b8f5-38b5e1ce30d4" />
