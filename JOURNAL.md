@@ -8,30 +8,28 @@
    - Uangel X2807 1300Kv
    - 6s 5200mah XT60
 
-<img width="1468" height="880" alt="7df4a46b-1eed-4ec3-b51c-5aaf73f997b2" src="https://github.com/user-attachments/assets/40fe4ef9-3b4f-493a-aecb-d6235808feec" />
-<img width="1344" height="900" alt="e7acb897-12b7-4c4b-9561-0c1f1995207d" src="https://github.com/user-attachments/assets/5a8e8c9a-11cf-4d64-85b2-32eefddaecbe" />
+<img width="1468" alt="7df4a46b-1eed-4ec3-b51c-5aaf73f997b2" src="https://github.com/user-attachments/assets/40fe4ef9-3b4f-493a-aecb-d6235808feec" />
+<img width="1344" alt="e7acb897-12b7-4c4b-9561-0c1f1995207d" src="https://github.com/user-attachments/assets/5a8e8c9a-11cf-4d64-85b2-32eefddaecbe" />
 
  
 # 14/06/2026 9:35 am
   
-  Below me is the schematic for the drone, which includes the parts needed for it to be full automated, so lets start one by one.
-  for this dorone i will be using a ESP32-S3-WROOM-N16R8-1 as the flight control, and i will be using a 45A esc 4-in-1.
-  
+
    ### SENSORS:
+   
+  - Below me is the schematic for the drone, which includes the parts needed for it to be full automated, so lets start one by one.
+    for this dorone i will be using a ESP32-S3-WROOM-N16R8-1 as the flight control, and i will be using a 45A esc 4-in-1.
     
-   - MPU6050 - This will act as the imu of the drone, giving it access to the yaw, roll, ang pitch.
-   - PMW3901 - This is an optical flow camera, which will provide the drone its velocity by visual feedback.
-   - VL53L1X - This is a lidar sensor, which will help the drone know its altitude, though testing and showcasing will only be done indoors.
-   - MLX90640BAB - This is the thermal camera, due to budget cuts im only gonna be using this.
-   - 45A 4-in-1 esc 
-
-  below me is the Schematic for the drone, this includes the connection for each sensor to function
-  
-<img width="605" height="562" alt="Screenshot 2026-06-11 200743" src="https://github.com/user-attachments/assets/af78e5a9-d560-40a3-a7d0-d05206c7846e" />
-
-  
-now currently i dont have any of these components, so here are the links were i browsed the products, 
-and mind you they may also have a discount. These products are from shopee which is a common delivery app from my country.
+ <img width="605" alt="Screenshot 2026-06-11 200743" src="https://github.com/user-attachments/assets/af78e5a9-d560-40a3-a7d0-d05206c7846e" />
+ 
+| Component | Type | Purpose |
+|-----------|------|--------|
+| MPU-6050 | IMU (Inertial Measurement Unit) | Will be used as the sensor to determine the drone’s yaw, roll, and pitch, as well as its movement using the built-in accelerometer. |
+| PMW3901 | Optical Flow Sensor | Will be used to determine the drone’s velocity in mid-air. |
+| VL53L1X + lid | Time-of-Flight (ToF) Distance Sensor | This will serve as the main sensor for measuring the drone’s altitude. However, this sensor is weaker outdoors, so testing and demonstrations will be conducted indoors. |
+| MLX90640BAA | Thermal Infrared Camera | This will be used to capture thermal images for mapping the environment. |
+| 45A 4-in-1 ESC | Electronic Speed Controller | Controls motor speed and power distribution. |
+| 4S 3200mAh 60C LiPo | Lithium Polymer Battery | Provides power to the entire drone system. |
 
 | Component | Purpose | Link |
 |-----------|---------|------|
@@ -55,7 +53,7 @@ and mind you they may also have a discount. These products are from shopee which
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
-The main difference between the two is their sensor performance and accuracy, which includes improvements in noise levels, stability, and motion tracking reliability in the BMI323 compared to the MPU6050.
+- The main difference between the two is their sensor performance and accuracy, which includes improvements in noise levels, stability, and motion tracking reliability in the BMI323 compared to the MPU6050. 
 
 | Feature                       | MPU6050                         | BMI323                                           |
 | ----------------------------- | ------------------------------- | ------------------------------------------------ |
@@ -68,7 +66,10 @@ The main difference between the two is their sensor performance and accuracy, wh
 | Sample rate                   | up to 1 kHz                     | up to 6.4 kHz (depends config)                   |
 | Power consumption             | ~3.9 mA                         | ~0.8–1.5 mA (more efficient)                     |
 
+
+
 <img width="250" alt="Screenshot 2026-06-17 202725" src="https://github.com/user-attachments/assets/64dfa1e8-335d-4858-bfa8-9bc3af585bfa" />
+
 
 
   
