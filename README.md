@@ -1,7 +1,7 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 ## documentation 
-  ### PROJECT OVERVIEW
+  ### PROJECT OVERVIEW:
 
   - The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and       floods.
 
@@ -9,8 +9,9 @@ this is were the drones summary of documentation will be located, be reminded th
 
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
- ### HARDWARE OVERVIEW / BILL OF MATERIALS
- Here is the list of the hardware i plan to use, it may also be used as the bill of materials.
+ ### HARDWARE OVERVIEW / BILL OF MATERIALS:
+ 
+ - Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
 
 | Component | Quantity | Purpose | Link                         |
 |-----------|:--------:|---------|------------------------------|
@@ -21,10 +22,11 @@ this is were the drones summary of documentation will be located, be reminded th
 | 45A 4-in-1 Esc | 1 | ESC |  https://shopee.ph/product/933050849/26220013460 |
 | 4s 3200mah 60c LiPo | 1 | Battery |  https://shopee.ph/product/933050849/26220013460 |
 
-### SYSTEM OVERVIEW
+### SYSTEM OVERVIEW:
 
 **Perception system**
-
+- This subsystem provides the drone’s perception and navigation capability for indoor search and rescue mapping. It combines motion sensing, position estimation, altitude measurement, and thermal imaging to allow controlled flight and environmental scanning in a confined area (2m × 2m).
+  
 *Inputs*
 
  - **(IMU) BMI323** - Will be used as the sensor to determine the Yaw, Roll, and Pitch of the drone, <br>
