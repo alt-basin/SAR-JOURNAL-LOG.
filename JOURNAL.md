@@ -66,5 +66,22 @@ Battery:
 <img width="2048" height="1080" alt="51f45b0d-6c06-419b-8082-c667ce248333" src="https://github.com/user-attachments/assets/c1e46a0f-3564-4fb7-b8f5-38b5e1ce30d4" />
 <img width="2048" height="1149" alt="b290c748-67dc-41cf-a960-94b504ee50dd" src="https://github.com/user-attachments/assets/c97fdf34-7f96-4b94-ab0f-5ec8b3d143d8" />
 
+# 17/06/2026 8:21 pm
+
+ - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
+
+The main difference between the two is their sensor performance and accuracy, which includes improvements in noise levels, stability, and motion tracking reliability in the BMI323 compared to the MPU6050.
+
+| Feature                       | MPU6050                         | BMI323                                           |
+| ----------------------------- | ------------------------------- | ------------------------------------------------ |
+| Gyro noise density            | ~0.005–0.01 °/s/√Hz             | ~0.003 °/s/√Hz (lower = better)                  |
+| Accelerometer noise           | ~400 µg/√Hz                     | ~80–120 µg/√Hz                                   |
+| Gyro range                    | ±250 to ±2000 °/s               | ±125 to ±2000 °/s (configurable, cleaner output) |
+| Accelerometer range           | ±2g to ±16g                     | ±2g to ±16g                                      |
+| Bias instability (gyro drift) | ~10–20 °/hr (worse in practice) | ~2–5 °/hr (much better)                          |
+| Output resolution             | 16-bit                          | 16–24 bit effective processing                   |
+| Sample rate                   | up to 1 kHz                     | up to 6.4 kHz (depends config)                   |
+| Power consumption             | ~3.9 mA                         | ~0.8–1.5 mA (more efficient)                     |
+
 
   
