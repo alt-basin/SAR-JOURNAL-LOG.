@@ -83,5 +83,7 @@ The main difference between the two is their sensor performance and accuracy, wh
 | Sample rate                   | up to 1 kHz                     | up to 6.4 kHz (depends config)                   |
 | Power consumption             | ~3.9 mA                         | ~0.8–1.5 mA (more efficient)                     |
 
+<img width="250" alt="Screenshot 2026-06-17 202725" src="https://github.com/user-attachments/assets/64dfa1e8-335d-4858-bfa8-9bc3af585bfa" />
+
 
   
