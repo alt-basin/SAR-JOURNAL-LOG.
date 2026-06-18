@@ -22,23 +22,54 @@
     
  <img width="605" alt="Screenshot 2026-06-11 200743" src="https://github.com/user-attachments/assets/af78e5a9-d560-40a3-a7d0-d05206c7846e" />
  
-| Component | Type | Purpose |
-|-----------|------|--------|
-| MPU-6050 | IMU (Inertial Measurement Unit) | Will be used as the sensor to determine the drone’s yaw, roll, and pitch, as well as its movement using the built-in accelerometer. |
-| PMW3901 | Optical Flow Sensor | Will be used to determine the drone’s velocity in mid-air. |
-| VL53L1X + lid | Time-of-Flight (ToF) Distance Sensor | This will serve as the main sensor for measuring the drone’s altitude. However, this sensor is weaker outdoors, so testing and demonstrations will be conducted indoors. |
-| MLX90640BAA | Thermal Infrared Camera | This will be used to capture thermal images for mapping the environment. |
-| 45A 4-in-1 ESC | Electronic Speed Controller | Controls motor speed and power distribution. |
-| 4S 3200mAh 60C LiPo | Lithium Polymer Battery | Provides power to the entire drone system. |
-
-| Component | Purpose | Link |
-|-----------|---------|------|
-| MPU-6050 | IMU | https://shopee.ph/product/580325202/25288429666 |
-| PMW3901 | Optical Flow Sensor | https://shopee.ph/product/1538176896/43426280197 |
-| VL53L1X + lid | Altitude Sensor (ToF) | https://shopee.ph/product/1032050598/22974977435 |
-| MLX90640BAA | Thermal Infrared Camera | https://shopee.ph/product/56540719/23154817594 |
-| 45A 4-in-1 ESC | Electronic Speed Controller | https://shopee.ph/product/933050849/26220013460 |
-| 4S 3200mAh 60C LiPo | Power Battery | https://shopee.ph/product/1729536151/57358540563 |
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Type</th>
+            <th>Purpose</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MPU-6050</td>
+            <td>IMU (Inertial Measurement Unit)</td>
+            <td>Measures angular velocity and acceleration for estimating the drone's orientation and movement.</td>
+            <td><a href="https://shopee.ph/product/580325202/25288429666">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>PMW3901</td>
+            <td>Optical Flow Sensor</td>
+            <td>Measures relative ground movement to estimate horizontal velocity and position changes.</td>
+            <td><a href="https://shopee.ph/product/1538176896/43426280197">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>VL53L1X + Lid</td>
+            <td>Time-of-Flight (ToF) Distance Sensor</td>
+            <td>Measures the distance to the ground, providing altitude data for low-altitude indoor flight.</td>
+            <td><a href="https://shopee.ph/product/1032050598/22974977435">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>MLX90640BAA</td>
+            <td>Thermal Infrared Camera</td>
+            <td>Captures thermal images for heat-source detection and thermal environment mapping.</td>
+            <td><a href="https://shopee.ph/product/56540719/23154817594">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>45A 4-in-1 ESC</td>
+            <td>Electronic Speed Controller</td>
+            <td>Controls the speed of the brushless motors and distributes power from the battery.</td>
+            <td><a href="https://shopee.ph/product/933050849/26220013460">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>4S 3200mAh 60C LiPo</td>
+            <td>Lithium Polymer Battery</td>
+            <td>Supplies electrical power to the drone's flight and sensing systems.</td>
+            <td><a href="https://shopee.ph/product/1729536151/57358540563">Product Link</a></td>
+        </tr>
+    </tbody>
+</table>
 
 # 15/06/2026 8:28 pm 
 
