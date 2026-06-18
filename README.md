@@ -1,7 +1,6 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
-## documentation 
-  ### PROJECT OVERVIEW:
+  ## PROJECT OVERVIEW:
 
   - The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and       floods.
 
@@ -9,9 +8,11 @@ this is were the drones summary of documentation will be located, be reminded th
 
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
- ### HARDWARE OVERVIEW / BILL OF MATERIALS:
- 
- - Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
+---
+
+## BILL OF MATERIALS:
+
+Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
 
 <table>
     <thead>
@@ -26,43 +27,45 @@ this is were the drones summary of documentation will be located, be reminded th
         <tr>
             <td>BMI323</td>
             <td align="center">1</td>
-            <td>IMU</td>
+            <td>Inertial Measurement Unit for orientation tracking</td>
             <td><a href="https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM">Product Link</a></td>
         </tr>
         <tr>
             <td>PMW3901</td>
             <td align="center">1</td>
-            <td>Optical Flow Sensor</td>
+            <td>Optical flow sensor for velocity estimation</td>
             <td><a href="https://shopee.ph/product/1538176896/43426280197">Product Link</a></td>
         </tr>
         <tr>
             <td>VL53L1X + lid</td>
             <td align="center">1</td>
-            <td>Altitude Sensor (ToF)</td>
+            <td>Time-of-Flight distance sensor for altitude measurement</td>
             <td><a href="https://shopee.ph/product/1032050598/22974977435">Product Link</a></td>
         </tr>
         <tr>
             <td>MLX90640BAA</td>
             <td align="center">1</td>
-            <td>Thermal Infrared Camera</td>
+            <td>Thermal infrared imaging camera for heat signature detection</td>
             <td><a href="https://shopee.ph/product/56540719/23154817594">Product Link</a></td>
         </tr>
         <tr>
             <td>45A 4-in-1 ESC</td>
             <td align="center">1</td>
-            <td>Electronic Speed Controller</td>
+            <td>Electronic speed controller for motor control</td>
             <td><a href="https://shopee.ph/product/933050849/26220013460">Product Link</a></td>
         </tr>
         <tr>
             <td>4S 3200mAh 60C LiPo</td>
             <td align="center">1</td>
-            <td>Power Battery</td>
+            <td>Lithium polymer battery for system power supply</td>
             <td><a href="https://shopee.ph/product/1729536151/57358540563">Product Link</a></td>
         </tr>
     </tbody>
 </table>
 
-### SYSTEM OVERVIEW:
+---
+
+## SYSTEM OVERVIEW:
 
 **Perception system**
 - This subsystem provides the drone’s perception and navigation capability for indoor search and rescue mapping. It combines motion sensing, position estimation, altitude measurement, and thermal imaging to allow controlled flight and environmental scanning in a confined area (2m × 2m).
