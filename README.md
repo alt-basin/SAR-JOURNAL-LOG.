@@ -13,31 +13,137 @@ this is were the drones summary of documentation will be located, be reminded th
  
  - Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
 
-| Component | Quantity | Purpose | Link |
-|-----------|:--------:|---------|------|
-| BMI323 | 1 | IMU | https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM |
-| PMW3901 | 1 | Optical Flow Sensor | https://shopee.ph/product/1538176896/43426280197 |
-| VL53L1X + lid | 1 | Altitude Sensor (ToF) | https://shopee.ph/product/1032050598/22974977435 |
-| MLX90640BAA | 1 | Thermal Infrared Camera | https://shopee.ph/product/56540719/23154817594 |
-| 45A 4-in-1 ESC | 1 | Electronic Speed Controller | https://shopee.ph/product/933050849/26220013460 |
-| 4S 3200mAh 60C LiPo | 1 | Power Battery | https://shopee.ph/product/1729536151/57358540563 |
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Quantity</th>
+            <th>Purpose</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BMI323</td>
+            <td align="center">1</td>
+            <td>IMU</td>
+            <td><a href="https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>PMW3901</td>
+            <td align="center">1</td>
+            <td>Optical Flow Sensor</td>
+            <td><a href="https://shopee.ph/product/1538176896/43426280197">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>VL53L1X + lid</td>
+            <td align="center">1</td>
+            <td>Altitude Sensor (ToF)</td>
+            <td><a href="https://shopee.ph/product/1032050598/22974977435">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>MLX90640BAA</td>
+            <td align="center">1</td>
+            <td>Thermal Infrared Camera</td>
+            <td><a href="https://shopee.ph/product/56540719/23154817594">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>45A 4-in-1 ESC</td>
+            <td align="center">1</td>
+            <td>Electronic Speed Controller</td>
+            <td><a href="https://shopee.ph/product/933050849/26220013460">Product Link</a></td>
+        </tr>
+        <tr>
+            <td>4S 3200mAh 60C LiPo</td>
+            <td align="center">1</td>
+            <td>Power Battery</td>
+            <td><a href="https://shopee.ph/product/1729536151/57358540563">Product Link</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ### SYSTEM OVERVIEW:
 
 **Perception system**
 - This subsystem provides the drone’s perception and navigation capability for indoor search and rescue mapping. It combines motion sensing, position estimation, altitude measurement, and thermal imaging to allow controlled flight and environmental scanning in a confined area (2m × 2m).
   
-| Component | Type | Purpose |
-|-----------|------|--------|
-| BMI323 | IMU (Inertial Measurement Unit) | Will be used as the sensor to determine the drone’s yaw, roll, and pitch, as well as its movement using the built-in accelerometer. |
-| PMW3901 | Optical Flow Sensor | Will be used to determine the drone’s velocity in mid-air. |
-| VL53L1X + lid | Time-of-Flight (ToF) Distance Sensor | This will serve as the main sensor for measuring the drone’s altitude. However, this sensor is weaker outdoors, so testing and demonstrations will be conducted indoors. |
-| MLX90640BAA | Thermal Infrared Camera | This will be used to capture thermal images for mapping the environment. |
-| 45A 4-in-1 ESC | Electronic Speed Controller | Controls motor speed and power distribution. |
-| 4S 3200mAh 60C LiPo | Lithium Polymer Battery | Provides power to the entire drone system. |
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Type</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BMI323</td>
+            <td>IMU (Inertial Measurement Unit)</td>
+            <td>Will be used as the sensor to determine the drone’s yaw, roll, and pitch, as well as its movement using the built-in accelerometer.</td>
+        </tr>
+        <tr>
+            <td>PMW3901</td>
+            <td>Optical Flow Sensor</td>
+            <td>Will be used to determine the drone’s velocity in mid-air.</td>
+        </tr>
+        <tr>
+            <td>VL53L1X + lid</td>
+            <td>Time-of-Flight (ToF) Distance Sensor</td>
+            <td>This will serve as the main sensor for measuring the drone’s altitude. However, this sensor is weaker outdoors, so testing and demonstrations will be conducted indoors.</td>
+        </tr>
+        <tr>
+            <td>MLX90640BAA</td>
+            <td>Thermal Infrared Camera</td>
+            <td>This will be used to capture thermal images for mapping the environment.</td>
+        </tr>
+        <tr>
+            <td>45A 4-in-1 ESC</td>
+            <td>Electronic Speed Controller</td>
+            <td>Controls motor speed and power distribution.</td>
+        </tr>
+        <tr>
+            <td>4S 3200mAh 60C LiPo</td>
+            <td>Lithium Polymer Battery</td>
+            <td>Provides power to the entire drone system.</td>
+        </tr>
+    </tbody>
+</table>
 
  - Collects raw data
  - Filters noise
  - Syncs timestamps
+
 **Control system**
-- This subsystem 
+- This subsystem explains the code that will be used for each sensors.
+
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Kalman Filter Category</th>
+            <th>Reason</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BMI323 (IMU)</td>
+            <td>Extended Kalman Filter (Prediction Step)</td>
+            <td>Provides acceleration and angular velocity measurements used to predict the drone's state. An EKF is required because attitude estimation involves nonlinear rotational dynamics.</td>
+        </tr>
+        <tr>
+            <td>PMW3901 (Optical Flow)</td>
+            <td>Extended Kalman Filter (Correction Step)</td>
+            <td>Provides optical flow measurements used to correct velocity estimates. Conversion from pixel motion to ground velocity depends on altitude and orientation, making the measurement model nonlinear.</td>
+        </tr>
+        <tr>
+            <td>VL53L1X (ToF)</td>
+            <td>Extended Kalman Filter (Correction Step)</td>
+            <td>Provides range measurements used to estimate altitude. Tilt compensation requires roll and pitch corrections, resulting in a nonlinear measurement model.</td>
+        </tr>
+        <tr>
+            <td>MLX90640 (Thermal Camera)</td>
+            <td>Not Part of the EKF</td>
+            <td>Used for thermal imaging and environment mapping. It operates independently from the drone's state-estimation system.</td>
+        </tr>
+    </tbody>
+</table>
