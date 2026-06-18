@@ -1,7 +1,7 @@
 # 13/06/206 10:09 pm
  
- first ever log for the drone, i have already created the schematic, though i will need to continue creating the drones
- pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone
+ first ever log for the drone, i have already created the schematic, though i will need to continue creating the <br> drones
+ pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone.
 
   im currently using a 
    - JMT X4 310MM X4M310L
