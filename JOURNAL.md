@@ -11,6 +11,7 @@
 <img width="1468" alt="7df4a46b-1eed-4ec3-b51c-5aaf73f997b2" src="https://github.com/user-attachments/assets/40fe4ef9-3b4f-493a-aecb-d6235808feec" />
 <img width="1344" alt="e7acb897-12b7-4c4b-9561-0c1f1995207d" src="https://github.com/user-attachments/assets/5a8e8c9a-11cf-4d64-85b2-32eefddaecbe" />
 
+---
  
 # 14/06/2026 9:35 am
   
@@ -71,6 +72,8 @@
     </tbody>
 </table>
 
+---
+
 # 15/06/2026 8:28 pm 
 
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
@@ -78,6 +81,8 @@
   <img width="2048" height="1289" alt="c05a2e44-0346-4d8f-9d85-8e693a4ecb37" src="https://github.com/user-attachments/assets/f830b4bb-87ad-4105-bba7-587b4fd0105a" />
 <img width="2048" height="1080" alt="51f45b0d-6c06-419b-8082-c667ce248333" src="https://github.com/user-attachments/assets/c1e46a0f-3564-4fb7-b8f5-38b5e1ce30d4" />
 <img width="2048" height="1149" alt="b290c748-67dc-41cf-a960-94b504ee50dd" src="https://github.com/user-attachments/assets/c97fdf34-7f96-4b94-ab0f-5ec8b3d143d8" />
+
+---
 
 # 17/06/2026 8:21 pm
 
