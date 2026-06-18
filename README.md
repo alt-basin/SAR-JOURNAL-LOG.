@@ -115,7 +115,6 @@ this is were the drones summary of documentation will be located, be reminded th
 
 **Control system**
 - This subsystem explains the code that will be used for each sensors.
-
 <table>
     <thead>
         <tr>
@@ -127,23 +126,21 @@ this is were the drones summary of documentation will be located, be reminded th
     <tbody>
         <tr>
             <td>BMI323 (IMU)</td>
-            <td>Extended Kalman Filter (Prediction Step)</td>
-            <td>Provides acceleration and angular velocity measurements used to predict the drone's state. An EKF is required because attitude estimation involves nonlinear rotational dynamics.</td>
+            <td rowspan="3">Extended Kalman Filter (EKF)</td>
+            <td>Provides acceleration and angular velocity measurements used to predict the drone's state. Required for nonlinear attitude estimation.</td>
         </tr>
         <tr>
             <td>PMW3901 (Optical Flow)</td>
-            <td>Extended Kalman Filter (Correction Step)</td>
-            <td>Provides optical flow measurements used to correct velocity estimates. Conversion from pixel motion to ground velocity depends on altitude and orientation, making the measurement model nonlinear.</td>
+            <td>Provides optical flow used to correct velocity estimates. Depends on altitude and orientation, making the model nonlinear.</td>
         </tr>
         <tr>
             <td>VL53L1X (ToF)</td>
-            <td>Extended Kalman Filter (Correction Step)</td>
-            <td>Provides range measurements used to estimate altitude. Tilt compensation requires roll and pitch corrections, resulting in a nonlinear measurement model.</td>
+            <td>Provides range measurements for altitude estimation. Requires tilt compensation (roll/pitch), making the measurement nonlinear.</td>
         </tr>
         <tr>
             <td>MLX90640 (Thermal Camera)</td>
-            <td>Not Part of the EKF</td>
-            <td>Used for thermal imaging and environment mapping. It operates independently from the drone's state-estimation system.</td>
+            <td>Not part of EKF</td>
+            <td>Used for thermal imaging and environment mapping. Operates independently from state estimation.</td>
         </tr>
     </tbody>
 </table>
