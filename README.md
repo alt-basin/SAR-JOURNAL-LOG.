@@ -39,3 +39,5 @@ this is were the drones summary of documentation will be located, be reminded th
  - Collects raw data
  - Filters noise
  - Syncs timestamps
+**Control system**
+- This subsystem 
