@@ -2,7 +2,7 @@
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
   ## PROJECT OVERVIEW:
 
-   **Main description**
+   **Main description:**
   
   - The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and       floods.
 
@@ -10,7 +10,7 @@ this is were the drones summary of documentation will be located, be reminded th
 
     The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
 
-  **Reason for build**
+  **Reason for build:**
 
   - I created this project since I originally wanted to use the parts for my main drone for an upcoming robothon (on 2027) though I realized the drone isnt capable to be used as a cargo build. And because of that, I decided to repurpose the parts (that one we can see on log 13/06/2026 10:09 pm) as a school project.
 
@@ -18,7 +18,7 @@ this is were the drones summary of documentation will be located, be reminded th
 
     So at the end of the day, I regretted my descision for relying on gemini to see which parts should i choose (im a total begginer). Though my other drone is finilized, I hope that by the end of month im able to finish this repo and get the parts I need.
 
-  **Curent status**
+  **Curent status:**
   - Finalizing the Hardware
   - Creating the New schematic
   - Learning how to use EKF
@@ -27,7 +27,7 @@ this is were the drones summary of documentation will be located, be reminded th
 ---
 
 ## HARDWARE OVERVIEW:
-**Hardware list**
+**Hardware list:**
 - Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
 
 <table>
@@ -85,7 +85,8 @@ this is were the drones summary of documentation will be located, be reminded th
 
 ## SYSTEM OVERVIEW:
 
-**Perception system**
+&ensp;**Perception system:**
+
 - This subsystem provides the drone’s perception and navigation capability for indoor search and rescue mapping. It combines motion sensing, position estimation, altitude measurement, and thermal imaging to allow controlled flight and environmental scanning in a confined area (2m × 2m).
   
 <table>
@@ -117,25 +118,15 @@ this is were the drones summary of documentation will be located, be reminded th
             <td>Thermal Infrared Camera</td>
             <td>This will be used to capture thermal images for mapping the environment.</td>
         </tr>
-        <tr>
-            <td>45A 4-in-1 ESC</td>
-            <td>Electronic Speed Controller</td>
-            <td>Controls motor speed and power distribution.</td>
-        </tr>
-        <tr>
-            <td>4S 3200mAh 60C LiPo</td>
-            <td>Lithium Polymer Battery</td>
-            <td>Provides power to the entire drone system.</td>
-        </tr>
-    </tbody>
+  </tbody>
 </table>
 
- - Collects raw data
- - Filters noise
- - Syncs timestamps
+&ensp; **Computing & Information System:**
 
-**Control system**
-- This subsystem explains the code that will be used for each sensors.
+&ensp; **Control system:**
+
+&emsp; *closed-loop system:*
+- This part of the the subgroup measures the raw output of the sensors and filters them, allowing for smooth control.
 <table>
     <thead>
         <tr>
