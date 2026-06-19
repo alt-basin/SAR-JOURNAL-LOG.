@@ -10,7 +10,7 @@ this is were the drones summary of documentation will be located, be reminded th
 
 ---
 
-## BILL OF MATERIALS:
+## HARDWARE OVERVIEW:
 
 Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
 
