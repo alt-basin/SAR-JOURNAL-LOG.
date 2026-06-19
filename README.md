@@ -17,6 +17,13 @@ this is were the drones summary of documentation will be located, be reminded th
     And originally I wanted to sell these parts, though I realized no-one from my country would buy a fiber glass drone, so I had to come up with ideas which landed on using it as a school project
 
     So at the end of the day, I regretted my descision for relying on gemini to see which parts should i choose (im a total begginer). Though my other drone is finilized, I hope that by the end of month im able to finish this repo and get the parts I need.
+
+  **Curent status**
+  - Finalizing the Hardware
+  - Creating the New schematic
+  - Learning how to use EKF
+  - finishing the BOM.CSV file
+    
 ---
 
 ## HARDWARE OVERVIEW:
