@@ -1,4 +1,6 @@
 # 13/06/2026 10:09 pm
+
+ **Duration:** Unknown (completed before repository creation)
  
  first ever log for the drone, i have already created the schematic, though i will need to continue creating the <br> drones
  pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone.
@@ -15,6 +17,7 @@
  
 # 14/06/2026 9:35 am
   
+ **Duration:** Unknown (completed before repository creation)
 
    ### SENSORS:
    
@@ -76,6 +79,8 @@
 
 # 15/06/2026 8:28 pm 
 
+ **Duration:** Unknown (completed before repository creation)
+
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
   <img width="2048" height="1289" alt="c05a2e44-0346-4d8f-9d85-8e693a4ecb37" src="https://github.com/user-attachments/assets/f830b4bb-87ad-4105-bba7-587b4fd0105a" />
@@ -85,6 +90,8 @@
 ---
 
 # 17/06/2026 8:21 pm
+
+ **Duration:** 9 mins
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
