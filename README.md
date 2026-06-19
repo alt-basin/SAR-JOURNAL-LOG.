@@ -12,8 +12,11 @@ this is were the drones summary of documentation will be located, be reminded th
 
   **Reason for build**
 
-  - I created this project becuase i originally want to use the parts for my main dron for an upcoming robothon (on 2027) though I realized the drone isnt capable to be used as a cargo build. And because of that, I decided to repurpose the parts ( that one we can see on log 
+  - I created this project since I originally wanted to use the parts for my main drone for an upcoming robothon (on 2027) though I realized the drone isnt capable to be used as a cargo build. And because of that, I decided to repurpose the parts (that one we can see on log 13/06/2026 10:09 pm) as a school project.
 
+    And originally I wanted to sell these parts, though I realized no-one from my country would buy a fiber glass drone, so I had to come up with ideas which landed on using it as a school project
+
+    So at the end of the day, I regretted my descision for relying on gemini to see which parts should i choose (im a total begginer). Though my other drone is finilized, I hope that by the end of month im able to finish this repo and get the parts I need.
 ---
 
 ## HARDWARE OVERVIEW:
