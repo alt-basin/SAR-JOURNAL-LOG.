@@ -112,6 +112,22 @@
 
 <img width="250" alt="Screenshot 2026-06-17 202725" src="https://github.com/user-attachments/assets/64dfa1e8-335d-4858-bfa8-9bc3af585bfa" />
 
+---
+
+# 20/06/2026 2:32pm
+
+**Duration:** 10mins
+
+ - So i just created the new schematic for the drone which included the new IMU (BMI323).
+   so the reason why I didnt do this yesterday is because i had assignments, and also i was lazy.
+
+   it took around 4 mins to create the new symbol for the imu since i was trying to find the exact board model
+   in a datasheet though i found the model by a youtube video. Which also described how to use it.
+
+  <img width="471" height="437" alt="Screenshot 2026-06-20 142921" src="https://github.com/user-attachments/assets/656dd6a2-f679-4263-9131-98dd4fc3c475" />
+  <img width="471" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/d3b06de2-813e-4c4f-b145-ca3735b05715" />
+
+
 
 
   
