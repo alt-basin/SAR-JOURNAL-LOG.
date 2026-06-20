@@ -29,12 +29,10 @@ this is were the drones summary of documentation will be located, be reminded th
 ## HARDWARE OVERVIEW:
 **Hardware list:**
 - Here is the list of hardware planned for this project, which also serves as the Bill of Materials (BOM).
-
 <table>
     <thead>
         <tr>
             <th>Component</th>
-            <th>Quantity</th>
             <th>Purpose</th>
             <th>Link</th>
         </tr>
@@ -42,37 +40,36 @@ this is were the drones summary of documentation will be located, be reminded th
     <tbody>
         <tr>
             <td>BMI323</td>
-            <td align="center">1</td>
             <td>Inertial Measurement Unit for orientation tracking</td>
             <td><a href="https://s.lazada.com.ph/s.Zg2ofY?c=v&t=p-iGrr7H6-s2LBxeDM">Product Link</a></td>
         </tr>
         <tr>
             <td>PMW3901</td>
-            <td align="center">1</td>
             <td>Optical flow sensor for velocity estimation</td>
             <td><a href="https://shopee.ph/product/1538176896/43426280197">Product Link</a></td>
         </tr>
         <tr>
             <td>VL53L1X + lid</td>
-            <td align="center">1</td>
             <td>Time-of-Flight distance sensor for altitude measurement</td>
             <td><a href="https://shopee.ph/product/1032050598/22974977435">Product Link</a></td>
         </tr>
         <tr>
             <td>MLX90640BAA</td>
-            <td align="center">1</td>
             <td>Thermal infrared imaging camera for heat signature detection</td>
             <td><a href="https://shopee.ph/product/56540719/23154817594">Product Link</a></td>
         </tr>
         <tr>
+            <td>Uangel X2807 1300KV Motor</td>
+            <td>Brushless motors for thrust generation and flight control</td>
+            <td><a href="https://shopee.ph/placeholder-link">Product Link</a></td>
+        </tr>
+        <tr>
             <td>45A 4-in-1 ESC</td>
-            <td align="center">1</td>
             <td>Electronic speed controller for motor control</td>
             <td><a href="https://shopee.ph/product/933050849/26220013460">Product Link</a></td>
         </tr>
         <tr>
             <td>4S 3200mAh 60C LiPo</td>
-            <td align="center">1</td>
             <td>Lithium polymer battery for system power supply</td>
             <td><a href="https://shopee.ph/product/1729536151/57358540563">Product Link</a></td>
         </tr>
@@ -156,5 +153,6 @@ this is were the drones summary of documentation will be located, be reminded th
         </tr>
     </tbody>
 </table>
+
 
    
