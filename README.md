@@ -61,7 +61,7 @@ this is were the drones summary of documentation will be located, be reminded th
         <tr>
             <td>Uangel X2807 1300KV Motor</td>
             <td>Brushless motors for thrust generation and flight control</td>
-            <td><a href="https://shopee.ph/placeholder-link">Product Link</a></td>
+            <td><a href="https://shopee.ph/product/53025630/22476350635">Product Link</a></td>
         </tr>
         <tr>
             <td>45A 4-in-1 ESC</td>
