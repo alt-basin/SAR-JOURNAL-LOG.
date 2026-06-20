@@ -73,6 +73,11 @@ this is were the drones summary of documentation will be located, be reminded th
             <td>Lithium polymer battery for system power supply</td>
             <td><a href="https://shopee.ph/product/1729536151/57358540563">Product Link</a></td>
         </tr>
+         <tr>
+            <td>JMT X4 310MM Drone frame</td>
+            <td>The Frame of the drone that will hold all the parts together</td>
+            <td><a href="https://shopee.ph/product/936939040/18971876269">Product Link</a></td>
+        </tr>
     </tbody>
 </table>
 
