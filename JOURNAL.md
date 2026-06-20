@@ -1,4 +1,4 @@
-## DEVLOG 001
+# DEVLOG 001
 ## 13/06/2026 10:09 pm
 
  **Duration:** Unknown (completed before repository creation)
