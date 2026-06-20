@@ -1,6 +1,6 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
-  ## PROJECT OVERVIEW:
+  ### PROJECT OVERVIEW:
 
    **Main description:**
   
@@ -26,7 +26,7 @@ this is were the drones summary of documentation will be located, be reminded th
     
 ---
 
-## HARDWARE OVERVIEW:
+### HARDWARE OVERVIEW:
 **Hardware list:**
 - Here is the hardware parts and their respective links.
 <table>
@@ -85,9 +85,11 @@ this is were the drones summary of documentation will be located, be reminded th
 
 <img width="437" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/ed66fdbb-d4ec-4317-a78e-23893baee086" />
 
+**
+
 ---
 
-## SYSTEM OVERVIEW:
+### SYSTEM OVERVIEW:
 
 &ensp;**Perception system:**
 
@@ -159,5 +161,11 @@ this is were the drones summary of documentation will be located, be reminded th
     </tbody>
 </table>
 
+**Editors note**
+- Now before you question my way of creating this repo, be reminded that this is still in progress. I still havent made much research on the software though I have already studied how to connect these parts. and my first pcb design would need the measurements of the drone frame, so before i start i would also need the hardware first before i actually start on creating the pcb.
+
+- so if you have any questions regarding the build, yes i will be giving the pcb designs and place him here for you to copy, and yes i will also create a file compiling all the grueling work of the program into here
+
+  i sincerely hope no-one woudl take credit since i will be putting my face in the pcb.
 
    
