@@ -120,8 +120,6 @@ this is were the drones summary of documentation will be located, be reminded th
   </tbody>
 </table>
 
-&ensp; **Computing & Information System:**
-
 &ensp; **Control system:**
 
 &emsp; *closed-loop system:*
