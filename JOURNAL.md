@@ -128,7 +128,7 @@
   <img width="471" height="437" alt="Screenshot 2026-06-20 142921" src="https://github.com/user-attachments/assets/656dd6a2-f679-4263-9131-98dd4fc3c475" />
   <img width="471" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/d3b06de2-813e-4c4f-b145-ca3735b05715" />
 
- [Drone Schematic](Schematics+PCB/schematic_drone.pdf)
+https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schematic_drone.pdf
 
 
 
