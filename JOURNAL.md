@@ -92,7 +92,7 @@
 # DEVLOG #004
 **17/06/2026 8:21 pm**
 
- **Duration:** 9m
+ **Duration:** 5m
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
