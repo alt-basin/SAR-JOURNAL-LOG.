@@ -92,7 +92,7 @@
 # DEVLOG #004: INTRODUCTION FOR BMI323
 **17/06/2026 8:21 pm**
 
- **Duration:** 5m
+ **Duration:** ![time](https://img.shields.io/badge/⏱_time-5-minutes-orange)
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
@@ -117,7 +117,7 @@
 # DEVLOG #005: NEW SYMBOL AND SCHEMATIC
 **20/06/2026 2:32pm**
 
-**Duration:** 10m
+**Duration:** ![time](https://img.shields.io/badge/⏱_time-10_minutes-orange)
 
  - So i just created the new schematic for the drone which included the new IMU (BMI323).
    so the reason why I didnt do this yesterday is because i had assignments, and also i was lazy.
