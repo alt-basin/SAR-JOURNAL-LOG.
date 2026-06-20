@@ -1,5 +1,4 @@
 # DEVLOG #001: INTRODUCTION
-**13/06/2026 10:09 pm**
 
  **Duration:** pre-repo work
  
@@ -16,8 +15,7 @@
 
 ---
 # DEVLOG #002: INTRO TO SCHEMATIC
-**14/06/2026 9:35 am**
-  
+
  **Duration:** pre-repo work
 
    ### SENSORS:
@@ -78,7 +76,6 @@
 
 ---
 # DEVLOG #003: DRONE FRAME 
-**15/06/2026 8:28 pm** 
 
  **Duration:** pre-repo work
 
@@ -115,7 +112,6 @@
 
 ---
 # DEVLOG #005: NEW SYMBOL AND SCHEMATIC
-**20/06/2026 2:32pm**
 
 **Duration:** 10 minutes
 
