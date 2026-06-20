@@ -1,7 +1,7 @@
 # DEVLOG #001
 **13/06/2026 10:09 pm**
 
- **Duration:** Unknown (completed before repository creation)
+ **Duration:** 0h (pre-repo work)
  
  first ever log for the drone, i have already created the schematic, though i will need to continue creating the <br> drones
  pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone.
@@ -18,7 +18,7 @@
 # DEVLOG #002
 **14/06/2026 9:35 am**
   
- **Duration:** Unknown (completed before repository creation)
+ **Duration:** 0h (pre-repo work)
 
    ### SENSORS:
    
@@ -80,7 +80,7 @@
 # DEVLOG #003
 **15/06/2026 8:28 pm** 
 
- **Duration:** Unknown (completed before repository creation)
+ **Duration:** 0h (pre-repo work)
 
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
@@ -92,7 +92,7 @@
 # DEVLOG #004
 **17/06/2026 8:21 pm**
 
- **Duration:** 9 mins
+ **Duration:** 9m
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
@@ -117,7 +117,7 @@
 # DEVLOG #005
 **20/06/2026 2:32pm**
 
-**Duration:** 10mins
+**Duration:** 10m
 
  - So i just created the new schematic for the drone which included the new IMU (BMI323).
    so the reason why I didnt do this yesterday is because i had assignments, and also i was lazy.
