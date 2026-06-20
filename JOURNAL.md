@@ -1,5 +1,5 @@
 # DEVLOG #001
-### 13/06/2026 10:09 pm
+**13/06/2026 10:09 pm**
 
  **Duration:** Unknown (completed before repository creation)
  
@@ -16,7 +16,7 @@
 
 ---
 # DEVLOG #002
-### 14/06/2026 9:35 am
+**14/06/2026 9:35 am**
   
  **Duration:** Unknown (completed before repository creation)
 
@@ -78,7 +78,7 @@
 
 ---
 # DEVLOG #003
-### 15/06/2026 8:28 pm 
+**15/06/2026 8:28 pm** 
 
  **Duration:** Unknown (completed before repository creation)
 
@@ -90,7 +90,7 @@
 
 ---
 # DEVLOG #004
-### 17/06/2026 8:21 pm
+**17/06/2026 8:21 pm**
 
  **Duration:** 9 mins
 
@@ -115,7 +115,7 @@
 
 ---
 # DEVLOG #005
-### 20/06/2026 2:32pm
+**20/06/2026 2:32pm**
 
 **Duration:** 10mins
 
