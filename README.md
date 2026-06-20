@@ -66,7 +66,7 @@ this is were the drones summary of documentation will be located, be reminded th
         <tr>
             <td>45A 4-in-1 ESC</td>
             <td>Electronic speed controller for motor control</td>
-            <td><a href="https://shopee.ph/product/933050849/26220013460">Product Link</a></td>
+            <td><a href="https://shopee.ph/product/936939040/27822252961">Product Link</a></td>
         </tr>
         <tr>
             <td>4S 3200mAh 60C LiPo</td>
