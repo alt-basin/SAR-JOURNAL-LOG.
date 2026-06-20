@@ -1,4 +1,4 @@
-# DEVLOG #001
+# DEVLOG #001: INTRODUCTION
 **13/06/2026 10:09 pm**
 
  **Duration:** pre-repo work
@@ -15,7 +15,7 @@
 <img width="1344" alt="e7acb897-12b7-4c4b-9561-0c1f1995207d" src="https://github.com/user-attachments/assets/5a8e8c9a-11cf-4d64-85b2-32eefddaecbe" />
 
 ---
-# DEVLOG #002
+# DEVLOG #002: INTRO TO SCHEMATIC
 **14/06/2026 9:35 am**
   
  **Duration:** pre-repo work
@@ -77,7 +77,7 @@
 </table>
 
 ---
-# DEVLOG #003
+# DEVLOG #003: DRONE FRAME 
 **15/06/2026 8:28 pm** 
 
  **Duration:** pre-repo work
@@ -89,7 +89,7 @@
 <img width="2048" height="1149" alt="b290c748-67dc-41cf-a960-94b504ee50dd" src="https://github.com/user-attachments/assets/c97fdf34-7f96-4b94-ab0f-5ec8b3d143d8" />
 
 ---
-# DEVLOG #004
+# DEVLOG #004: INTRODUCTION FOR BMI323
 **17/06/2026 8:21 pm**
 
  **Duration:** 5m
@@ -114,7 +114,7 @@
 <img width="250" alt="Screenshot 2026-06-17 202725" src="https://github.com/user-attachments/assets/64dfa1e8-335d-4858-bfa8-9bc3af585bfa" />
 
 ---
-# DEVLOG #005
+# DEVLOG #005: NEW SYMBOL AND SCHEMATIC
 **20/06/2026 2:32pm**
 
 **Duration:** 10m
