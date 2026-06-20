@@ -1,7 +1,7 @@
 # DEVLOG #001
 **13/06/2026 10:09 pm**
 
- **Duration:** 0h (pre-repo work)
+ **Duration:** pre-repo work
  
  first ever log for the drone, i have already created the schematic, though i will need to continue creating the <br> drones
  pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone.
@@ -18,7 +18,7 @@
 # DEVLOG #002
 **14/06/2026 9:35 am**
   
- **Duration:** 0h (pre-repo work)
+ **Duration:** pre-repo work
 
    ### SENSORS:
    
@@ -80,7 +80,7 @@
 # DEVLOG #003
 **15/06/2026 8:28 pm** 
 
- **Duration:** 0h (pre-repo work)
+ **Duration:** pre-repo work
 
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
