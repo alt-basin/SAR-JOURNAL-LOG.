@@ -78,6 +78,11 @@ this is were the drones summary of documentation will be located, be reminded th
             <td>The Frame of the drone that will hold all the parts together</td>
             <td><a href="https://shopee.ph/product/936939040/18971876269">Product Link</a></td>
         </tr>
+        <tr>
+            <td>ESP32-S3-WROOM-1 N16R8 (Camera Variant)</td>
+            <td>Main flight controller for stabilization, optical flow processing, sensor fusion, PID control, and Wi-Fi telemetry to ground station</td>
+            <td><a href="https://www.espressif.com/en/products/socs/esp32-s3">Product Reference</a></td>
+        </tr>
     </tbody>
 </table>
 
