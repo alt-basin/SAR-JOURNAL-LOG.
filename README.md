@@ -1,27 +1,33 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
   ### PROJECT OVERVIEW:
+# SAR-JOURNAL-LOG
 
-   **Main description:**
-  
-  - The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and       floods.
+This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
 
-    The system is designed to assist in search operations by capturing aerial data and detecting heat signatures using a thermal camera. This can help identify           potential human presence in outdoor environments with reduced visibility, such as nighttime conditions, smoke, or partially obstructed areas.
+### Main Description
 
-    The drone combines thermal imaging with optical flow, an IMU, and a distance sensor to maintain stable flight and estimate motion during flight. It is intended       as a demonstration of how low-cost robotics systems can support SAR-style exploration and situational awareness.
+* The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and floods.
 
-  **Reason for build:**
+* The system is designed to assist search operations by capturing aerial data and detecting heat signatures using a thermal camera. This capability may help identify potential human presence in outdoor environments with reduced visibility, including nighttime conditions, smoke, or partially obstructed areas.
 
-  - I created this project since I originally wanted to use the parts for my main drone for an upcoming robothon (on 2027) though I realized the drone isnt capable to be used as a cargo build. And because of that, I decided to repurpose the parts (that one we can see on log 13/06/2026 10:09 pm) as a school project.
+* The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to maintain stable flight and estimate motion during operation. The project serves as a demonstration of how low-cost robotics systems can support SAR-style exploration, environmental monitoring, and situational awareness.
 
-    And originally I wanted to sell these parts, though I realized no-one from my country would buy a fiber glass drone, so I had to come up with ideas which landed on using it as a school project
+### Reason for Build
 
-    So at the end of the day, I regretted my descision for relying on gemini to see which parts should i choose (im a total begginer). Though my other drone is finilized, I hope that by the end of month im able to finish this repo and get the parts I need.
+* This project originated from hardware that was initially intended for a larger cargo-drone design being developed for a future robotics competition. During the planning stage, it became apparent that the selected components were not suitable for the intended cargo-drone requirements.
 
-  **Curent status:**
-  - Finalizing the Hardware
-  - Learning how to use EKF
-    
+* Rather than discarding or selling the components, the decision was made to repurpose them into a Search and Rescue drone prototype that could also serve as a school research project.
+
+* The project provides an opportunity to gain practical experience in drone development, autonomous navigation, sensor integration, state estimation, and embedded systems while making effective use of existing hardware resources.
+
+### Current Status
+
+* Finalizing hardware selection
+* Learning and implementing an Extended Kalman Filter (EKF)
+* Researching autonomous navigation and localization methods
+* Preparing documentation and development logs
+
 ---
 
 ### HARDWARE OVERVIEW:
