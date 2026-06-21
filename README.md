@@ -20,9 +20,7 @@ this is were the drones summary of documentation will be located, be reminded th
 
   **Curent status:**
   - Finalizing the Hardware
-  - Creating the New schematic
   - Learning how to use EKF
-  - finishing the BOM.CSV file
     
 ---
 
