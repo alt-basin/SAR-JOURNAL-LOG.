@@ -132,16 +132,17 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 **Duration:** 26 minutes 28 seconds
 
-- So I decided to measure the frame of the drone(below me) so that i can use this to base the shape of the pcb, which will host the ESP32-S3-WROOM-1, Internal Measuring Unit, and etc.
+- I decided to measure the drone frame (shown below) so I can use it as a reference for the PCB's shape, which will host the ESP32-S3-WROOM-1, IMU (Inertial   Measurement Unit), and other components.
 
-  Right now im only preparing the measurements for the pcb as it will be placed directly. And right now im waiting for the sensors to come so that i could measure the pin layout as actual size, as i think its better to rely on measurements derived from the physical copy.
+  Right now, I am only preparing the measurements for the PCB since it will be mounted directly onto the frame. I am also waiting for the sensors to arrive so I can measure their pin layouts and dimensions accurately. I believe it is better to rely on measurements taken from the actual physical components rather than using dimensions from online sources.
 
-  so here you go.
+  Here are the measurements.
 
   <img width="480" alt="34cc6814-a46b-4476-9909-0267edcaa080" src="https://github.com/user-attachments/assets/2fa67dbd-bcc2-4e36-bfd9-b222d9bc8efa" />
   <img width="370.75" alt="341fd21e-3ca5-4c1e-b4bd-874106287189" src="https://github.com/user-attachments/assets/6a432389-2464-4d20-86c1-fc179580ab7e" />
 
-  - I just want to show this to you as i currently have assignments and i wont be able to make the actual mesurements in a 3d model. i may have to create in one the weekends.
+ - I just wanted to show this to you since I currently have assignments to work on, and I won't be able to create the <br> actual measurements in a 3D model yet. I may have to work on it during the weekend.
+
 
 
 
