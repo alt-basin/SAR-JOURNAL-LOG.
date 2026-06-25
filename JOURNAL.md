@@ -157,7 +157,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 - I was talking with Gpt about the sensors to find the common and cheapest, which landed me on the ICM-20602. so comparing this with the current bmi323, here are the data table. Now even though it may just be like a point different from a bmi, i only want to switch as the bmi323 isnt really popular.
 
-  now that i have decided what kind of sensor i will use, i should probably change the BOM first
+  now that i have decided what kind of sensor i will use, i should probably change the BOM first, then i will start on creating the new schematic again.
 
 | Specification | BMI323 | ICM-20602 |
 |--------------|---------|----------|
@@ -179,6 +179,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 | ESP32 Compatibility | Yes | Yes |
 
 <img width="250" alt="28f02160-13c6-4550-bb51-76e5383b8505" src="https://github.com/user-attachments/assets/46dea2b2-487e-477b-b9cd-f5dcda65f1d9" />
+
 
 
 
