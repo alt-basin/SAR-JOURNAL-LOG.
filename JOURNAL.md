@@ -89,7 +89,7 @@
 # DEVLOG #004: INTRODUCTION FOR BMI323
 
 
- **Duration:** 5 minutes
+ **Duration: 5 minutes**
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
@@ -113,7 +113,7 @@
 ---
 # DEVLOG #005: NEW SYMBOL AND SCHEMATIC
 
-**Duration:** 10 minutes
+**Duration: 10 minutes**
 
  - So i just created the new schematic for the drone which included the new IMU (BMI323).
    so the reason why I didnt do this yesterday is because i had assignments, and also i was lazy.
@@ -130,7 +130,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 # DEVLOG #006: MEASUREMENTS FOR PCB
 
-**Duration:** 26 minutes 28 seconds
+**Duration: 26 minutes 28 seconds**
 
 - I decided to measure the drone frame (shown below) so I can use it as a reference for the PCB's shape, which will host the ESP32-S3-WROOM-1, IMU (Inertial   Measurement Unit), and other components.
 
@@ -147,7 +147,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 # DEVLOG #007: UPDATE FOR REPO AND NEW SENSOR
 
-**Duration:**
+**Duration: 1 hour 29 mins 54 seconds**
 
 - So since I dont have any assignments today, i decided to create a data table for each sensor. So you could know whats the capabilities, while doing so I realized that my current imu (which is BMI323), is weak. Not that its fully weak but for testing that uses autonomous programming, this would be a problem.
 
@@ -179,6 +179,14 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 | ESP32 Compatibility | Yes | Yes |
 
 <img width="250" alt="28f02160-13c6-4550-bb51-76e5383b8505" src="https://github.com/user-attachments/assets/46dea2b2-487e-477b-b9cd-f5dcda65f1d9" />
+
+**8:05 pm**
+
+- Here is the thing the schematic. i only keep chagning the schematic so i could have a visual guideline for the pcb.
+
+<img width="250" alt="Screenshot 2026-06-25 200450" src="https://github.com/user-attachments/assets/91fa9381-10de-4739-8fd6-baaaf60da865" />
+<img width="250" alt="Screenshot 2026-06-25 200708" src="https://github.com/user-attachments/assets/66f7e95b-cbd3-4dcd-9b42-64f16a564928" />
+
 
 https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/BOM.xlsx
 
