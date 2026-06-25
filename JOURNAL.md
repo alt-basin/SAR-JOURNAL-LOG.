@@ -190,7 +190,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 
 https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/BOM.xlsx
-
+https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 
   
