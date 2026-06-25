@@ -189,7 +189,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 <img width="250" alt="Screenshot 2026-06-25 200708" src="https://github.com/user-attachments/assets/66f7e95b-cbd3-4dcd-9b42-64f16a564928" />
 
 
-https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/BOM.xlsx
+https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/BOM.xlsx <br>
 https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 - hello its me again, now im not actually saying that the ICM 20602 is better than the BMI323, just that the specs arent really built for an automated drone. Even though the bmi wins by 8 that doesnt automatically guarentee that the imu its great. just that its for other projects not for mine.
