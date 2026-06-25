@@ -160,24 +160,24 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
   now that i have decided what kind of sensor i will use, i should probably change the BOM first, then i will start on creating the new schematic again.
   i should probably just add the data tables for the sensors tommorow.
 
-| Specification | BMI323 | ICM-20602 |
-|---|---|---|
-| Sensor Type | 6-Axis IMU | 6-Axis IMU |
-| Accelerometer Range | ±2g, ±4g, ±8g, ±16g | ±2g, ±4g, ±8g, ±16g |
-| Gyroscope Range | **±125, ±250, ±500, ±1000, ±2000 °/s** | ±250, ±500, ±1000, ±2000 °/s |
-| Resolution | 16-bit | 16-bit |
-| Gyro Noise Density | ~0.007 °/s/√Hz | **0.004 °/s/√Hz** |
-| Accel Noise Density | ~180 µg/√Hz | **100 µg/√Hz** |
-| Max Gyro ODR | 6.4 kHz | **8 kHz** |
-| Max Accel ODR | **6.4 kHz** | 4 kHz |
-| FIFO Size | **2 KB** | 1 KB |
-| Interfaces | **SPI, I²C, I3C** | SPI, I²C |
-| Supply Voltage | **1.71–3.6 V** | 1.71–3.45 V |
-| Power Consumption | **Lower** | Higher |
-| Package Size | **2.5 × 3.0 mm** | 3.0 × 3.0 mm |
-| Release Era | **Modern** | Older |
-| Drone Usage | Limited | **Widely Used** |
-| ESP32 Compatibility | Yes | Yes |
+| Specification | BMI323 |  | ICM-20602 |
+|---|---|---|---|
+| Sensor Type | 6-Axis IMU | = | 6-Axis IMU |
+| Accelerometer Range | ±2g, ±4g, ±8g, ±16g | = | ±2g, ±4g, ±8g, ±16g |
+| Gyroscope Range | **±125, ±250, ±500, ±1000, ±2000 °/s** | > | *±250, ±500, ±1000, ±2000 °/s* |
+| Resolution | 16-bit | = | 16-bit |
+| Gyro Noise Density | *~0.007 °/s/√Hz* | < | **0.004 °/s/√Hz** |
+| Accel Noise Density | *~180 µg/√Hz* | < | **100 µg/√Hz** |
+| Max Gyro ODR | *6.4 kHz* | < | **8 kHz** |
+| Max Accel ODR | **6.4 kHz** | > | *4 kHz* |
+| FIFO Size | **2 KB** | > | *1 KB* |
+| Interfaces | **SPI, I²C, I3C** | > | *SPI, I²C* |
+| Supply Voltage | **1.71–3.6 V** | > | *1.71–3.45 V* |
+| Power Consumption | **Lower** | > | *Higher* |
+| Package Size | **2.5 × 3.0 mm** | > | *3.0 × 3.0 mm* |
+| Release Era | **Modern** | > | *Older* |
+| Drone Usage | *Limited* | < | **Widely Used** |
+| ESP32 Compatibility | Yes | = | Yes |
 
 <img width="250" alt="28f02160-13c6-4550-bb51-76e5383b8505" src="https://github.com/user-attachments/assets/46dea2b2-487e-477b-b9cd-f5dcda65f1d9" />
 
