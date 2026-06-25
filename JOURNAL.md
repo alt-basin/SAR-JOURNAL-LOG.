@@ -177,6 +177,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 | Release Era | Modern | Older |
 | Drone Usage | Limited | Widely Used |
 | ESP32 Compatibility | Yes | Yes |
+
 [BOM](BOM.xlsx)
 <img width="250" alt="28f02160-13c6-4550-bb51-76e5383b8505" src="https://github.com/user-attachments/assets/46dea2b2-487e-477b-b9cd-f5dcda65f1d9" />
 
