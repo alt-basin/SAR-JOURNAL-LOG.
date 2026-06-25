@@ -158,6 +158,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 - I was talking with Gpt about the sensors to find the common and cheapest, which landed me on the ICM-20602. so comparing this with the current bmi323, here are the data table. Now even though it may just be like a point different from a bmi, i only want to switch as the bmi323 isnt really popular.
 
   now that i have decided what kind of sensor i will use, i should probably change the BOM first, then i will start on creating the new schematic again.
+  i should probably just add the data tables for the sensors tommorow.
 
 | Specification | BMI323 | ICM-20602 |
 |--------------|---------|----------|
