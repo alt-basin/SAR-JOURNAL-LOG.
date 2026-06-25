@@ -39,7 +39,7 @@ This repository contains the documentation, development progress, and technical 
 
 <img width="437" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/ed66fdbb-d4ec-4317-a78e-23893baee086" />
 
-[Drone Schematic](Schematics+PCB/Schematic_drone.pdf)
+[Drone Schematic](Schematics/Schematic_drone.pdf)
 
 
 ---
