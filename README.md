@@ -1,5 +1,13 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
+
+  **For Forge Reviewers**
+  - I hope you could fund the components listed in the BOM, as I would like to measure and verify their physical dimensions first before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
+
+    I will cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they are complete.
+
+---
+
   ### PROJECT OVERVIEW:
 
 This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
