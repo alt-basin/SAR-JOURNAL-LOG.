@@ -196,4 +196,15 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 ---
 
-  
+# DEVLOG #008: FOOTPRINT
+
+**Duration: ?**
+
+ - Hello! It's been a while since my last update because I've been swamped with schoolwork. During my free time, I decided to work on creating the PCB footprints for the custom board I'm designing.
+
+At the moment, the PCB isn't fully complete. I still need to add the through-hole solder pads so the board can be connected to the components properly. I wasn't able to accurately track the total amount of time I spent on this task since I was constantly switching between EasyEDA and Google Docs for documentation and planning. However, I'd estimate that I spent around **4 hours** working on it.
+
+<img width="430" alt="Screenshot 2026-07-01 142834" src="https://github.com/user-attachments/assets/1e43e35d-237f-43e7-a166-ff3fbc56bb45" />
+<img width="430" alt="Screenshot 2026-07-01 142828" src="https://github.com/user-attachments/assets/9b335d06-f7b8-4efe-8107-bc1da945436d" />
+
+ - so probably im just going to add this to the pcb development file, but soon i will replace it with a more refined version with the through-hole solder pads.
