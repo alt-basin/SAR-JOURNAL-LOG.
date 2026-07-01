@@ -209,3 +209,5 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
  - so probably im just going to add this to the pcb development file, but soon i will replace it with a more refined version with the through-hole solder pads.
    I re-synced all of my project files and didn't realize it would reset their timestamps.
+
+   also be minded this is my first time making a footprint, so i dont really know if its bad or not
