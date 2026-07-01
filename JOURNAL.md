@@ -208,3 +208,4 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 <img width="430" alt="Screenshot 2026-07-01 142834" src="https://github.com/user-attachments/assets/1e43e35d-237f-43e7-a166-ff3fbc56bb45" />
 
  - so probably im just going to add this to the pcb development file, but soon i will replace it with a more refined version with the through-hole solder pads.
+   I re-synced all of my project files and didn't realize it would reset their timestamps.
