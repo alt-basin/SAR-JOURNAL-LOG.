@@ -198,7 +198,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #008: FOOTPRINT
 
-**Duration: ?**
+**Duration: ~4 hours**
 
  - Hello! It's been a while since my last update because I've been swamped with schoolwork. During my free time, I decided to work on creating the PCB footprints for the custom board I'm designing.
 
