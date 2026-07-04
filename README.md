@@ -17,11 +17,11 @@ This repository contains the documentation, development progress, and technical 
 
 #### Main Description
 
-* The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and floods.
+- The goal of this project is to develop a prototype autonomous-capable Search and Rescue (SAR) drone intended for outdoor disaster scenarios such as earthquakes, landslides, and floods.
 
-* The system is designed to assist search operations by capturing aerial data and detecting heat signatures using a thermal camera. This capability may help identify potential human presence in outdoor environments with reduced visibility, including nighttime conditions, smoke, or partially obstructed areas.
+- The system is designed to assist search operations by capturing aerial data and detecting heat signatures using a thermal camera. This capability may help identify potential heat sources associated with human presence in outdoor environments with reduced visibility, including nighttime conditions, smoke, or partially obstructed areas.
 
-* The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to maintain stable flight and estimate motion during operation. The project serves as a demonstration of how low-cost robotics systems can support SAR-style exploration, environmental monitoring, and situational awareness.
+- The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to support stable flight and estimate its motion during operation. The project serves as a demonstration of how low-cost robotic aerial systems can contribute to SAR-oriented exploration, environmental monitoring, and situational awareness.
 
 #### Reason for Build
 
@@ -35,7 +35,7 @@ This repository contains the documentation, development progress, and technical 
 
 ### HARDWARE OVERVIEW:
 #### Hardware list:
-- Here is the hardware parts and their respective links.
+*sensor + electronics selection:*
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #1a1a2e; color: white;">
@@ -66,29 +66,42 @@ This repository contains the documentation, development progress, and technical 
       <td><a href="https://shopee.ph/product/56540719/23154817594" target="_blank">View Product</a></td>
     </tr>
     <tr>
-      <td><strong>Uangel X2807 1300KV Motor</strong></td>
-      <td>Brushless motors for thrust generation and flight control</td>
-      <td><a href="https://shopee.ph/product/53025630/22476350635" target="_blank">View Product</a></td>
+      <td><strong>ESP32-S3-WROOM-1 (N16R8)</strong></td>
+      <td>Main flight controller for sensor fusion (EKF), optical flow processing, PID control, and telemetry</td>
+      <td>—</td>
     </tr>
-    <tr style="background-color: #f2f2f2;">
-      <td><strong>45A 4-in-1 ESC</strong></td>
-      <td>Electronic speed controller for regulating motor speed</td>
-      <td><a href="https://shopee.ph/product/936939040/27822252961" target="_blank">View Product</a></td>
+  </tbody>
+</table>
+
+*Airframe and Power System*
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #1a1a2e; color: white;">
+      <th>Component</th>
+      <th>Purpose</th>
+      <th>Link</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td><strong>4S 3300mAh 60C LiPo Battery</strong></td>
-      <td>Main power source for propulsion and onboard electronics</td>
-      <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
-    </tr>
-    <tr style="background-color: #f2f2f2;">
       <td><strong>JMT X4 310mm Frame</strong></td>
       <td>Structural frame supporting all drone components</td>
       <td><a href="https://shopee.ph/product/936939040/18971876269" target="_blank">View Product</a></td>
     </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td><strong>Uangel X2807 1300KV Motor</strong></td>
+      <td>Brushless motors for thrust generation and flight control</td>
+      <td><a href="https://shopee.ph/product/53025630/22476350635" target="_blank">View Product</a></td>
+    </tr>
     <tr>
-      <td><strong>ESP32-S3-WROOM-1 (N16R8)</strong></td>
-      <td>Main flight controller for sensor fusion (EKF), optical flow processing, PID control, and telemetry</td>
-      <td>—</td>
+      <td><strong>45A 4-in-1 ESC</strong></td>
+      <td>Electronic speed controller for regulating motor speed</td>
+      <td><a href="https://shopee.ph/product/936939040/27822252961" target="_blank">View Product</a></td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td><strong>4S 3300mAh 60C LiPo Battery</strong></td>
+      <td>Main power source for propulsion and onboard electronics</td>
+      <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
     </tr>
   </tbody>
 </table>
