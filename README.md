@@ -1,6 +1,14 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 
+### Current Status
+
+* Finalizing hardware selection
+* Learning and implementing an Extended Kalman Filter (EKF)
+* Researching autonomous navigation and localization methods
+* Preparing documentation and development logs
+
+
 ---
 
   ### PROJECT OVERVIEW:
@@ -22,13 +30,6 @@ This repository contains the documentation, development progress, and technical 
 * Rather than discarding or selling the components, the decision was made to repurpose them into a Search and Rescue drone prototype that could also serve as a school research project.
 
 * The project provides an opportunity to gain practical experience in drone development, autonomous navigation, sensor integration, state estimation, and embedded systems while making effective use of existing hardware resources.
-
-### Current Status
-
-* Finalizing hardware selection
-* Learning and implementing an Extended Kalman Filter (EKF)
-* Researching autonomous navigation and localization methods
-* Preparing documentation and development logs
 
 ---
 
@@ -188,6 +189,6 @@ This repository contains the documentation, development progress, and technical 
 
  **For Forge Reviewers**
   - I hope the components listed in the BOM can be funded, so I can measure and verify their physical dimensions before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
-
-   I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
+  
+    I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
 
