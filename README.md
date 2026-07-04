@@ -1,7 +1,7 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 
-### Current Status
+## Current Status
 
 * Finalizing hardware selection
 * Learning and implementing an Extended Kalman Filter (EKF)
@@ -15,7 +15,7 @@ this is were the drones summary of documentation will be located, be reminded th
 
 This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
 
-### Main Description
+#### Main Description
 
 * The goal of this project is to develop a prototype autonomous Search and Rescue (SAR) drone for outdoor disaster scenarios such as earthquakes, landslides, and floods.
 
@@ -23,7 +23,7 @@ This repository contains the documentation, development progress, and technical 
 
 * The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to maintain stable flight and estimate motion during operation. The project serves as a demonstration of how low-cost robotics systems can support SAR-style exploration, environmental monitoring, and situational awareness.
 
-### Reason for Build
+#### Reason for Build
 
 * This project originated from hardware that was initially intended for a larger cargo-drone design being developed for a future robotics competition. During the planning stage, it became apparent that the selected components were not suitable for the intended cargo-drone requirements.
 
@@ -34,7 +34,7 @@ This repository contains the documentation, development progress, and technical 
 ---
 
 ### HARDWARE OVERVIEW:
-**Hardware list:**
+#### Hardware list:
 - Here is the hardware parts and their respective links.
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
   <thead>
@@ -93,7 +93,7 @@ This repository contains the documentation, development progress, and technical 
   </tbody>
 </table>
 
-**Schematic:**
+#### Schematic:
 
 <img width="437" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/ed66fdbb-d4ec-4317-a78e-23893baee086" />
 
@@ -104,7 +104,7 @@ This repository contains the documentation, development progress, and technical 
 
 ### SYSTEM OVERVIEW:
 
-&ensp;**Perception system:**
+#### Perception system:
 
 - This subsystem provides the drone’s perception and navigation capability for indoor search and rescue mapping. It combines motion sensing, position estimation, altitude measurement, and thermal imaging to allow controlled flight and environmental scanning in a confined area (2m × 2m).
   
@@ -118,7 +118,7 @@ This repository contains the documentation, development progress, and technical 
     </thead>
     <tbody>
         <tr>
-            <td>BMI323</td>
+            <td>ICM-20602</td>
             <td>IMU (Inertial Measurement Unit)</td>
             <td>Will be used as the sensor to determine the drone’s yaw, roll, and pitch, as well as its movement using the built-in accelerometer.</td>
         </tr>
@@ -140,7 +140,7 @@ This repository contains the documentation, development progress, and technical 
   </tbody>
 </table>
 
-&ensp; **Control system:**
+#### **Control system:**
 
 &emsp; *closed-loop system:*
 - This part of the the subgroup measures the raw output of the sensors and filters them, allowing for smooth control.
@@ -154,22 +154,22 @@ This repository contains the documentation, development progress, and technical 
     </thead>
     <tbody>
         <tr>
-            <td>ICM-20602 (IMU)</td>
+            <td>ICM-20602</td>
             <td>Extended Kalman Filter (EKF)</td>
             <td>Provides acceleration and angular velocity measurements used to predict the drone's state. Required for nonlinear attitude estimation.</td>
         </tr>
         <tr>
-            <td>PMW3901 (Optical Flow)</td>
+            <td>PMW3901</td>
             <td>Extended Kalman Filter (EKF)</td>
             <td>Provides optical flow used to correct velocity estimates. Depends on altitude and orientation, making the model nonlinear.</td>
         </tr>
         <tr>
-            <td>VL53L1X (ToF)</td>
+            <td>VL53L1X</td>
             <td>Extended Kalman Filter (EKF)</td>
             <td>Provides range measurements for altitude estimation. Requires tilt compensation (roll/pitch), making the measurement nonlinear.</td>
         </tr>
         <tr>
-            <td>MLX90640 (Thermal Camera)</td>
+            <td>MLX90640</td>
             <td>Not part of EKF</td>
             <td>Used for thermal imaging and environment mapping. Operates independently from state estimation.</td>
         </tr>
