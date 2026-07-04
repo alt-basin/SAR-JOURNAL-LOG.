@@ -1,11 +1,6 @@
 # SAR-JOURNAL-LOG.
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 
-  **For Forge Reviewers**
-  - I hope you could fund the components listed in the BOM, as I would like to measure and verify their physical dimensions first before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
-
-    I will cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they are complete.
-
 ---
 
   ### PROJECT OVERVIEW:
@@ -159,15 +154,17 @@ This repository contains the documentation, development progress, and technical 
     <tbody>
         <tr>
             <td>ICM-20602 (IMU)</td>
-            <td rowspan="3">Extended Kalman Filter (EKF)</td>
+            <td>Extended Kalman Filter (EKF)</td>
             <td>Provides acceleration and angular velocity measurements used to predict the drone's state. Required for nonlinear attitude estimation.</td>
         </tr>
         <tr>
             <td>PMW3901 (Optical Flow)</td>
+            <td>Extended Kalman Filter (EKF)</td>
             <td>Provides optical flow used to correct velocity estimates. Depends on altitude and orientation, making the model nonlinear.</td>
         </tr>
         <tr>
             <td>VL53L1X (ToF)</td>
+            <td>Extended Kalman Filter (EKF)</td>
             <td>Provides range measurements for altitude estimation. Requires tilt compensation (roll/pitch), making the measurement nonlinear.</td>
         </tr>
         <tr>
@@ -178,11 +175,19 @@ This repository contains the documentation, development progress, and technical 
     </tbody>
 </table>
 
+---
+
 **Editors note**
-- Now before you question my way of creating this repo, be reminded that this is still in progress. I still havent made much research on the software though I have already studied how to connect these parts. and my first pcb design would need the measurements of the drone frame, so before i start i would also need the hardware first before i actually start on creating the pcb.
 
-- so if you have any questions regarding the build, yes i will be giving the pcb designs and place him here for you to copy, and yes i will also create a file compiling all the grueling work of the program into here
+- This documentation is still a work in progress. Software development hasn't started yet. I've studied how the components connect, but haven't done extensive research on the implementation side. My first step is finalizing the PCB design, which depends on the drone frame's physical measurements, so sourcing the hardware is a prerequisite before I can begin.
 
-  i sincerely hope no-one woudl take credit since i will be putting my face in the pcb.
+  If you have any questions about the build, feel free to ask. Once complete, I'll share the PCB design files here for anyone to reference or reuse. I'll also compile the full development log and program documentation into this repository as the project progresses.
 
-   
+  All work will be openly shared with attribution. I'll be including my own mark on the PCB design as a form of authorship.
+
+
+ **For Forge Reviewers**
+  - I hope the components listed in the BOM can be funded, so I can measure and verify their physical dimensions before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
+
+   I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
+
