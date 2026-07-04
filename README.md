@@ -158,7 +158,7 @@ This repository contains the documentation, development progress, and technical 
     </thead>
     <tbody>
         <tr>
-            <td>BMI323 (IMU)</td>
+            <td>ICM-20602 (IMU)</td>
             <td rowspan="3">Extended Kalman Filter (EKF)</td>
             <td>Provides acceleration and angular velocity measurements used to predict the drone's state. Required for nonlinear attitude estimation.</td>
         </tr>
