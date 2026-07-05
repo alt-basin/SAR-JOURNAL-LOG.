@@ -228,3 +228,4 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
    <img width="250" height="250" alt="Screenshot 2026-07-05 220023" src="https://github.com/user-attachments/assets/0f557cfe-b46c-4e6b-8c52-927cd76beb13" />
    <img width="250" height="250" alt="Screenshot 2026-07-05 220034" src="https://github.com/user-attachments/assets/4d5bcede-a662-4c4d-ac38-63da1ae563d8" />
 
+- also, pcbdoc.
