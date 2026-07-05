@@ -211,3 +211,20 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
    I re-synced all of my project files and didn't realize it would reset their timestamps.
 
    also be minded this is my first time making a footprint, so i dont really know if its bad or not
+
+---
+
+# DEVLOG #009: idk
+
+**Duration: 10 mins**
+
+- While working on my PCB design yesterday, I realized that I had been using copper traces instead of the board outline. I corrected that mistake, so here's the updated version.
+
+   I'm also writing today's devlog a bit earlier because I forgot to do it yesterday, and I really want to get to sleep early since I only got around three hours of sleep. I also had to attend the birthday celebration of a family friend today, which took up most of my evening.
+   
+   <img width="250" height="250" alt="Screenshot 2026-07-05 215957" src="https://github.com/user-attachments/assets/1a3bc900-93e3-4a5c-876f-9b4d25778429" />
+   <img width="250" height="250" alt="Screenshot 2026-07-05 220011" src="https://github.com/user-attachments/assets/8fdc0f94-cc1d-4325-a87c-fbb13fd6c4ac" />
+   <br>
+   <img width="250" height="250" alt="Screenshot 2026-07-05 220023" src="https://github.com/user-attachments/assets/0f557cfe-b46c-4e6b-8c52-927cd76beb13" />
+   <img width="250" height="250" alt="Screenshot 2026-07-05 220034" src="https://github.com/user-attachments/assets/4d5bcede-a662-4c4d-ac38-63da1ae563d8" />
+
