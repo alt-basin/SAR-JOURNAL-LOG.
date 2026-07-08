@@ -13,23 +13,23 @@ this is were the drones summary of documentation will be located, be reminded th
 
   ### PROJECT OVERVIEW:
 
-This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
+- This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
 
 #### Main Description
 
 - The goal of this project is to develop a prototype autonomous-capable Search and Rescue (SAR) drone intended for outdoor disaster scenarios such as earthquakes, landslides, and floods.
 
-- The system is designed to assist search operations by capturing aerial data and detecting heat signatures using a thermal camera. This capability may help identify potential heat sources associated with human presence in outdoor environments with reduced visibility, including nighttime conditions, smoke, or partially obstructed areas.
+  The system is designed to assist search operations by capturing aerial data and detecting heat signatures using a thermal camera. This capability may help identify potential heat sources associated with human presence in outdoor environments with reduced visibility, including nighttime conditions, smoke, or partially obstructed areas.
 
-- The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to support stable flight and estimate its motion during operation. The project serves as a demonstration of how low-cost robotic aerial systems can contribute to SAR-oriented exploration, environmental monitoring, and situational awareness.
+  The drone combines thermal imaging, optical flow, an Inertial Measurement Unit (IMU), and distance sensors to support stable flight and estimate its motion during operation. The project serves as a demonstration of how low-cost robotic aerial systems can contribute to SAR-oriented exploration, environmental monitoring, and situational awareness.
 
 #### Reason for Build
 
-* This project originated from hardware that was initially intended for a larger cargo-drone design being developed for a future robotics competition. During the planning stage, it became apparent that the selected components were not suitable for the intended cargo-drone requirements.
+- This project originated from hardware that was initially intended for a larger cargo-drone design being developed for a future robotics competition. During the planning stage, it became apparent that the selected components were not suitable for the intended cargo-drone requirements.
 
-* Rather than discarding or selling the components, the decision was made to repurpose them into a Search and Rescue drone prototype that could also serve as a school research project.
+   Rather than discarding or selling the components, the decision was made to repurpose them into a Search and Rescue drone prototype that could also serve as a school research project.
 
-* The project provides an opportunity to gain practical experience in drone development, autonomous navigation, sensor integration, state estimation, and embedded systems while making effective use of existing hardware resources.
+   The project provides an opportunity to gain practical experience in drone development, autonomous navigation, sensor integration, state estimation, and embedded systems while making effective use of existing hardware resources.
 
 ---
 
@@ -40,34 +40,40 @@ This repository contains the documentation, development progress, and technical 
   <thead>
     <tr style="background-color: #1a1a2e; color: white;">
       <th>Component</th>
-      <th>Purpose</th>
+      <th>Function</th>
+      <th>Purpose in the Project</th>
       <th>Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>ICM-20602</strong></td>
-      <td>IMU for orientation and motion tracking</td>
+      <td>Measures linear acceleration and angular velocity using a 3-axis accelerometer and 3-axis gyroscope.</td>
+      <td>Provides orientation and motion data for flight stabilization, attitude estimation, and autonomous navigation.</td>
       <td><a href="https://shopee.ph/product/1541768712/47054536700" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>PMW3901</strong></td>
-      <td>Optical flow sensor for horizontal velocity estimation</td>
+      <td>Tracks the movement of the ground beneath the drone using optical flow technology.</td>
+      <td>Estimates horizontal velocity and position, allowing stable flight in GPS-denied indoor environments.</td>
       <td><a href="https://shopee.ph/product/1538176896/43426280197" target="_blank">View Product</a></td>
     </tr>
     <tr>
       <td><strong>VL53L1X</strong></td>
-      <td>Time-of-Flight sensor for altitude measurement and vertical stability</td>
+      <td>Uses a laser Time-of-Flight (ToF) system to accurately measure the distance to nearby surfaces.</td>
+      <td>Maintains altitude, enables vertical positioning, and assists in autonomous takeoff and landing.</td>
       <td><a href="https://shopee.ph/product/1032050598/22974977435" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>MLX90640BAA</strong></td>
-      <td>Thermal infrared camera for heat signature detection and mapping</td>
+      <td>Captures a 32×24 thermal image by measuring infrared radiation emitted from objects.</td>
+      <td>Detects heat signatures, performs thermal mapping, and assists in locating people or heat sources during search-and-rescue operations.</td>
       <td><a href="https://shopee.ph/product/56540719/23154817594" target="_blank">View Product</a></td>
     </tr>
     <tr>
       <td><strong>ESP32-S3-WROOM-1 (N16R8)</strong></td>
-      <td>Main flight controller for sensor fusion (EKF), optical flow processing, PID control, and telemetry</td>
+      <td>Processes sensor data, executes control algorithms, and manages communication between all hardware components.</td>
+      <td>Acts as the drone's primary controller, performing sensor fusion (EKF), flight control, autonomous navigation, telemetry, and system coordination.</td>
       <td>—</td>
     </tr>
   </tbody>
@@ -78,34 +84,38 @@ This repository contains the documentation, development progress, and technical 
   <thead>
     <tr style="background-color: #1a1a2e; color: white;">
       <th>Component</th>
-      <th>Purpose</th>
+      <th>Function</th>
+      <th>Purpose in the Project</th>
       <th>Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>JMT X4 310mm Frame</strong></td>
-      <td>Structural frame supporting all drone components</td>
+      <td>Provides the structural framework for mounting and protecting all electronic and mechanical components.</td>
+      <td>Serves as the drone's main chassis, ensuring stability, durability, and proper component placement during flight.</td>
       <td><a href="https://shopee.ph/product/936939040/18971876269" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>Uangel X2807 1300KV Motor</strong></td>
-      <td>Brushless motors for thrust generation and flight control</td>
+      <td>Converts electrical energy into rotational motion to spin the propellers and generate thrust.</td>
+      <td>Provides the lift and maneuverability required for stable flight, navigation, and autonomous operation.</td>
       <td><a href="https://shopee.ph/product/53025630/22476350635" target="_blank">View Product</a></td>
     </tr>
     <tr>
       <td><strong>45A 4-in-1 ESC</strong></td>
-      <td>Electronic speed controller for regulating motor speed</td>
+      <td>Controls the speed and direction of each brushless motor by regulating electrical power from the battery.</td>
+      <td>Enables precise motor control for stable flight, attitude correction, and autonomous maneuvers.</td>
       <td><a href="https://shopee.ph/product/936939040/27822252961" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>4S 3300mAh 60C LiPo Battery</strong></td>
-      <td>Main power source for propulsion and onboard electronics</td>
+      <td>Supplies electrical power to the motors, flight controller, sensors, and other onboard electronics.</td>
+      <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
       <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
     </tr>
   </tbody>
 </table>
-
 #### Schematic:
 
 <img width="437" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/ed66fdbb-d4ec-4317-a78e-23893baee086" />
