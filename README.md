@@ -116,6 +116,7 @@ this is were the drones summary of documentation will be located, be reminded th
     </tr>
   </tbody>
 </table>
+
 #### Schematic:
 
 <img width="437" height="437" alt="Screenshot 2026-06-20 143220" src="https://github.com/user-attachments/assets/ed66fdbb-d4ec-4317-a78e-23893baee086" />
