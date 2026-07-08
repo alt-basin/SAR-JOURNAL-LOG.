@@ -68,7 +68,7 @@ this is were the drones summary of documentation will be located, be reminded th
       <td><strong>MLX90640BAA</strong></td>
       <td>Captures a 32×24 thermal image by measuring infrared radiation emitted from objects.</td>
       <td>Detects heat signatures, performs thermal mapping, and assists in locating people or heat sources during search-and-rescue operations.</td>
-      <td><a href="https://shopee.ph/product/56540719/23154817594" target="_blank">View Product</a></td>
+      <td><a href="https://shopee.ph/product/1622086447/43117260078" target="_blank">View Product</a></td>
     </tr>
     <tr>
       <td><strong>ESP32-S3-WROOM-1 (N16R8)</strong></td>
