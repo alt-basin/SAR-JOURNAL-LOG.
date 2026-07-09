@@ -114,11 +114,17 @@ this is were the drones summary of documentation will be located, be reminded th
       <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
       <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
     </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td><strong>PRO MINI560</strong></td>
+      <td> is a <strong>DC-DC buck converte</strong> that efficiently reduces a higher input voltage to a stable lower output voltage for electronic devices.</td>
+      <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
+      <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
+    </tr>
   </tbody>
 </table>
 
 #### Schematic:
-<img width="500" height="500" alt="Screenshot 2026-07-09 175718" src="https://github.com/user-attachments/assets/856acfcf-5dd7-4bc3-9b82-e8f52a9c49c9" />
+<img width="500" height="500" alt="Screenshot 2026-07-09 220412" src="https://github.com/user-attachments/assets/18b49712-7d11-4819-94da-31dcf6201abc" />
 
 [Drone Schematic](SCHEMATIC/GENERAL.SCHEMATIC.v1.png)
 
