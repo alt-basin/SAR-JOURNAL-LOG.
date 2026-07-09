@@ -1,4 +1,4 @@
-# SAR-JOURNAL-LOG.
+# Sensor-Controlled Thermal Mapping for Search and Rescue Operations (SCOUT) 
 this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 
 ## Current Status
