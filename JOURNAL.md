@@ -229,3 +229,14 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
    <img width="250" height="250" alt="Screenshot 2026-07-05 220034" src="https://github.com/user-attachments/assets/4d5bcede-a662-4c4d-ac38-63da1ae563d8" />
 
 - also, pcbdoc.
+
+---
+
+# DEVLOG #010: SCHEMATIC REFINING
+
+**Duration: 23 mins**
+
+- I added something new to the schematic, which would be a mini560, a buck converter so that esc could supply energy to the microcontroller.
+
+<img width="713" height="737" alt="Screenshot 2026-07-09 220412" src="https://github.com/user-attachments/assets/0cf83e75-781d-4ee8-8baf-3c5f3e2fa02c" />
+
