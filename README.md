@@ -1,19 +1,16 @@
 # Sensor-Controlled Thermal Mapping for Search and Rescue Operations (SCOUT) 
 
-**Editors note**
+**Editor's Note**
 
-- This documentation is still a work in progress. Software development hasn't started yet. I've studied how the components connect, but haven't done extensive research on the implementation side. My first step is finalizing the PCB design, which depends on the drone frame's physical measurements, so sourcing the hardware is a prerequisite before I can begin.
+- This project is still a work in progress. Software development has not yet begun. While I have studied how the hardware components interface with one another, I have not yet started the implementation phase. My current priority is designing the custom PCB. Since the PCB layout depends on the exact physical dimensions of the drone frame and its components, obtaining the hardware is a necessary first step to ensure accurate measurements, footprints, and component placement.
 
-  If you have any questions about the build, feel free to ask. Once complete, I'll share the PCB design files here for anyone to reference or reuse. I'll also compile the full development log and program documentation into this repository as the project progresses.
+  If you have any questions or suggestions regarding the project, feel free to reach out. As development progresses, I will publish the PCB design files, complete development logs, and software documentation in this repository for others to reference, learn from, or reuse. All project materials will be openly shared with proper attribution. The PCB design will also include my personal signature as a mark of authorship.
 
-  All work will be openly shared with attribution. I'll be including my own mark on the PCB design as a form of authorship.
+**For Forge Reviewers**
 
+- I hope the components listed in the Bill of Materials (BOM) can be funded so I can verify their physical dimensions before completing the PCB design. This will help ensure accurate footprints, proper component placement, and minimize alignment issues during assembly.
 
- **For Forge Reviewers**
-  - I hope the components listed in the BOM can be funded, so I can measure and verify their physical dimensions before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
-  
-    I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
-
+  I will cover the cost of PCB fabrication myself and will upload the completed PCB design files to this GitHub repository once they are finalized.
 
 
 **Current Status**
@@ -135,7 +132,71 @@
 </table>
 
 #### Schematic:
-<img width="500" height="500" alt="Screenshot 2026-07-09 220412" src="https://github.com/user-attachments/assets/18b49712-7d11-4819-94da-31dcf6201abc" />
+
+<table>
+  <tr>
+    <!-- Left Column -->
+    <td width="55%" valign="top">
+
+<h2>Hardware Connections</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Connection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>VL53L1X</strong></td>
+      <td>SDA → GPIO 9<br>SCL → GPIO 8</td>
+    </tr>
+    <tr>
+      <td><strong>MLX90640BAA</strong></td>
+      <td>SDA → GPIO 9<br>SCL → GPIO 8</td>
+    </tr>
+    <tr>
+      <td><strong>ICM-20602</strong></td>
+      <td>SAO/SDO → GPIO 13<br>SDA/SDI → GPIO 11<br>SCL/SPC → GPIO 12</td>
+    </tr>
+    <tr>
+      <td><strong>PMW3901</strong></td>
+      <td>MISO → GPIO 13<br>CLK → GPIO 12<br>MOSI → GPIO 11<br>CS → GPIO 10</td>
+    </tr>
+    <tr>
+      <td><strong>45A 4-in-1 ESC</strong></td>
+      <td>
+        M1 → GPIO 4<br>
+        M2 → GPIO 5<br>
+        M3 → GPIO 6<br>
+        M4 → GPIO 7<br>
+        GND → IN−<br>
+        VCC → IN+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+> **Note:** The VL53L1X and MLX90640BAA share the same I²C bus (GPIO 8 & 9), while the ICM-20602 and PMW3901 share the SPI bus (GPIO 11–13).
+
+</td>
+
+<!-- Right Column -->
+<td width="45%" align="center" valign="top">
+
+<img
+src="https://github.com/user-attachments/assets/18b49712-7d11-4819-94da-31dcf6201abc"
+alt="SCOUT Wiring Diagram"
+width="500">
+
+<br><br>
+
+<i>Figure 1. Current hardware wiring diagram.</i>
+
+</td>
+</tr>
+</table>
 
 [Drone Schematic](SCHEMATIC/GENERAL.SCHEMATIC.v1.png)
 
