@@ -1,20 +1,31 @@
 # Sensor-Controlled Thermal Mapping for Search and Rescue Operations (SCOUT) 
-this is were the drones summary of documentation will be located, be reminded that we would be using this prototype for our schools research
 
-## Current Status
+**Editors note**
+
+- This documentation is still a work in progress. Software development hasn't started yet. I've studied how the components connect, but haven't done extensive research on the implementation side. My first step is finalizing the PCB design, which depends on the drone frame's physical measurements, so sourcing the hardware is a prerequisite before I can begin.
+
+  If you have any questions about the build, feel free to ask. Once complete, I'll share the PCB design files here for anyone to reference or reuse. I'll also compile the full development log and program documentation into this repository as the project progresses.
+
+  All work will be openly shared with attribution. I'll be including my own mark on the PCB design as a form of authorship.
+
+
+ **For Forge Reviewers**
+  - I hope the components listed in the BOM can be funded, so I can measure and verify their physical dimensions before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
+  
+    I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
+
+
+
+**Current Status**
 
 * Finalizing hardware selection
 * Learning and implementing an Extended Kalman Filter (EKF)
 * Researching autonomous navigation and localization methods
 * Preparing documentation and development logs
 
-
 ---
 
   ### PROJECT OVERVIEW:
-
-- This repository contains the documentation, development progress, and technical records for a prototype Search and Rescue (SAR) drone. The project is being developed as part of a school research initiative and serves as a platform for exploring autonomous aerial systems and low-cost disaster-response technologies.
-
 #### Main Description
 
 - The goal of this project is to develop a prototype autonomous-capable Search and Rescue (SAR) drone intended for outdoor disaster scenarios such as earthquakes, landslides, and floods.
@@ -204,20 +215,3 @@ this is were the drones summary of documentation will be located, be reminded th
         </tr>
     </tbody>
 </table>
-
----
-
-**Editors note**
-
-- This documentation is still a work in progress. Software development hasn't started yet. I've studied how the components connect, but haven't done extensive research on the implementation side. My first step is finalizing the PCB design, which depends on the drone frame's physical measurements, so sourcing the hardware is a prerequisite before I can begin.
-
-  If you have any questions about the build, feel free to ask. Once complete, I'll share the PCB design files here for anyone to reference or reuse. I'll also compile the full development log and program documentation into this repository as the project progresses.
-
-  All work will be openly shared with attribution. I'll be including my own mark on the PCB design as a form of authorship.
-
-
- **For Forge Reviewers**
-  - I hope the components listed in the BOM can be funded, so I can measure and verify their physical dimensions before designing the PCB. This will help ensure the footprints and component placements are accurate and prevent alignment issues.
-  
-    I'll cover the cost of PCB fabrication myself and will upload the PCB design files to the project's GitHub repository once they're complete.
-
