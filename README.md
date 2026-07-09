@@ -120,7 +120,7 @@ this is were the drones summary of documentation will be located, be reminded th
 #### Schematic:
 <img width="500" height="500" alt="Screenshot 2026-07-09 175718" src="https://github.com/user-attachments/assets/856acfcf-5dd7-4bc3-9b82-e8f52a9c49c9" />
 
-[Drone Schematic](SCHEMATIC/GENERAL.SCHEMATIC.v1.pdf)
+[Drone Schematic](SCHEMATIC/GENERAL.SCHEMATIC.v1.png)
 
 
 ---
