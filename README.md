@@ -15,7 +15,6 @@
 
 **Current Status**
 
-* Finalizing hardware selection
 * Learning and implementing an Extended Kalman Filter (EKF)
 * Researching autonomous navigation and localization methods
 * Preparing documentation and development logs
