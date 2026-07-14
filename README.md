@@ -184,10 +184,7 @@
 <!-- Right Column -->
 <td width="45%" align="center" valign="top">
 
-<img
-src="https://github.com/user-attachments/assets/18b49712-7d11-4819-94da-31dcf6201abc"
-alt="SCOUT Wiring Diagram"
-width="500">
+<img width="480" height="702" alt="Screenshot 2026-07-14 184025" src="https://github.com/user-attachments/assets/5ba21b90-08f9-441e-a6dc-6de97789491d" />
 
 <br><br>
 
