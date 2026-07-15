@@ -127,6 +127,12 @@
       <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
       <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
     </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td><strong>7040 Gemfan Tri-Blade</strong></td>
+      <td> Converts the motor's rotational force into thrust, allowing the UAV to generate lift and maneuver during flight.</td>
+      <td> Provides stable and efficient lift for the SCOUT UAV while carrying its onboard sensors and thermal camera during autonomous missions.</td>
+      <td>—</td>
+    </tr>
   </tbody>
 </table>
 
@@ -149,11 +155,11 @@
   <tbody>
     <tr>
       <td><strong>VL53L1X</strong></td>
-      <td>SDA → GPIO 9<br>SCL → GPIO 8</td>
+      <td>SDA → GPIO 8<br>SCL → GPIO 9</td>
     </tr>
     <tr>
       <td><strong>MLX90640BAA</strong></td>
-      <td>SDA → GPIO 9<br>SCL → GPIO 8</td>
+      <td>SDA → GPIO 8<br>SCL → GPIO 9</td>
     </tr>
     <tr>
       <td><strong>ICM-20602</strong></td>
