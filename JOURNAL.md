@@ -240,3 +240,22 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 <img width="713" height="737" alt="Screenshot 2026-07-09 220412" src="https://github.com/user-attachments/assets/0cf83e75-781d-4ee8-8baf-3c5f3e2fa02c" />
 
+---
+
+# DEVLOG #011: Motor Mounting Issue and Assembly Lesson
+
+<img width="1756" height="996" alt="5b88c2b6-0f94-4790-9b57-e16fb2b95f28" src="https://github.com/user-attachments/assets/135f9d00-3efa-4403-a635-288d64581544" />
+
+*Figure X. Example of motor winding damage observed after assembly.
+This image shows one example of the damage found on the brushless motors. While this motor shows visible copper wire damage, several other motors exhibited deeper cuts that were difficult to properly capture through photography due to their location and severity.*
+
+
+- For future iterations, motor mounting depth will be checked before installation, and appropriate screw lengths will be selected to prevent interference with internal components.
+
+  During the early assembly phase of the drone prototype, the motor mounting screws used were found to be longer than required. This caused the screws to contact the internal motor components, resulting in visible damage to the copper winding area of the brushless motors.
+
+  Initial inspection was performed by comparing the phase resistance of each motor using a multimeter. The readings remained consistent across the motors, indicating that electrical continuity was maintained. However, this incident highlighted the importance of verifying hardware dimensions and screw length before mechanical assembly.
+
+  
+
+
