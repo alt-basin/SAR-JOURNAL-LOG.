@@ -77,7 +77,7 @@
 ---
 # DEVLOG #003: DRONE FRAME 
 
- **Duration:** pre-repo work
+ **Total Time Spent:** pre-repo work
 
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
@@ -89,7 +89,7 @@
 # DEVLOG #004: INTRODUCTION FOR BMI323
 
 
- **Duration: 5 minutes**
+ **Total Time Spent: 5 minutes**
 
  - I decided to switch from the MPU6050 to a better IMU, the BMI323. This is mainly because it has lower drift and improved overall performance. I also considered using an ICM-series IMU, but most online stores currently do not have it available.
 
@@ -113,7 +113,7 @@
 ---
 # DEVLOG #005: NEW SYMBOL AND SCHEMATIC
 
-**Duration: 10 minutes**
+**Total Time Spent: 10 minutes**
 
  - So i just created the new schematic for the drone which included the new IMU (BMI323).
    so the reason why I didnt do this yesterday is because i had assignments, and also i was lazy.
@@ -147,7 +147,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 # DEVLOG #007: UPDATE FOR REPO AND NEW SENSOR
 
-**Duration: 1 hour 29 mins 54 seconds**
+**Total Time Spent: 1 hour 29 mins 54 seconds**
 
 - So since I dont have any assignments today, i decided to create a data table for each sensor. So you could know whats the capabilities, while doing so I realized that my current imu (which is BMI323), is weak. Not that its fully weak but for testing that uses autonomous programming, this would be a problem.
 
@@ -198,7 +198,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #008: FOOTPRINT
 
-**Duration: ~4 hours**
+**Total Time Spent: 4 hours**
 
  - Hello! It's been a while since my last update because I've been swamped with schoolwork. During my free time, I decided to work on creating the PCB footprints for the custom board I'm designing.
 
@@ -216,7 +216,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #009: idk
 
-**Duration: 10 mins**
+**Total Time Spent: 10 mins**
 
 - While working on my PCB design yesterday, I realized that I had been using copper traces instead of the board outline. I corrected that mistake, so here's the updated version.
 
@@ -234,7 +234,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #010: SCHEMATIC REFINING
 
-**Duration: 23 mins**
+**Total time spent: 23 mins**
 
 - I added something new to the schematic, which would be a mini560, a buck converter so that esc could supply energy to the microcontroller.
 
@@ -255,6 +255,16 @@ This image shows one example of the damage found on the brushless motors. While 
   During the early assembly phase of the drone prototype, the motor mounting screws used were found to be longer than required. This caused the screws to contact the internal motor components, resulting in visible damage to the copper winding area of the brushless motors.
 
   Initial inspection was performed by comparing the phase resistance of each motor using a multimeter. The readings remained consistent across the motors, indicating that electrical continuity was maintained. However, this incident highlighted the importance of verifying hardware dimensions and screw length before mechanical assembly.
+
+# DEVLOG #012: ADDRESSING THE DELAY
+
+**Total time spent: 3 Minutes**
+
+- Hello! The reason progress on the robot has been slower than expected is that I've been working on a detailed project analysis that will be reviewed by my teacher as part of my research project.
+
+  Since my groupmates are not very experienced with robotics, I considered switching to a simpler project, the smartwatch prototype, which would require less complex programming. However, that project also presents a challenge. Its primary function is detecting hazardous gases, such as carbon monoxide, so I need to build a proof of concept by testing the sensors. To do that properly, I need to consult with an engineer from our main campus.
+
+  Because of this, I am currently preparing the project overview and technical analysis to compare both projects and determine which one is the most feasible to pursue for our research.
 
   
 
