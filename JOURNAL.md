@@ -269,4 +269,11 @@ This image shows one example of the damage found on the brushless motors. While 
   <img width="1918" height="897" alt="Screenshot 2026-07-18 144104" src="https://github.com/user-attachments/assets/a178a82b-c447-4c9b-907e-c201bb93f8d6" />
 
 
+# DEVLOG #013: HEADSUP
 
+**Total time spent: 0 Seconds**
+
+- Hello again, just be reminded I had to re-sync the entries because i had to add parsed time "Total time spent: 3 Minutes", since i thought it should be "duration: ". okay good bye.
+
+  <img width="988" height="523" alt="Screenshot 2026-07-18 144424" src="https://github.com/user-attachments/assets/31c61a86-eef7-43de-a368-63fec3d63f68" />
+ 
