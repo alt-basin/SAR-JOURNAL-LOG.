@@ -119,7 +119,7 @@
       <td><strong>4S 3300mAh 60C LiPo Battery</strong></td>
       <td>Supplies electrical power to the motors, flight controller, sensors, and other onboard electronics.</td>
       <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
-      <td><a href="https://shopee.ph/product/1400942760/28687044552" target="_blank">View Product</a></td>
+      <td><a href="https://shopee.ph/product/1400944485/29387091211" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>PRO MINI560</strong></td>
