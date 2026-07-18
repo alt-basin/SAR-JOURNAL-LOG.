@@ -266,6 +266,7 @@ This image shows one example of the damage found on the brushless motors. While 
 
   Because of this, I am currently preparing the project overview and technical analysis to compare both projects and determine which one is the most feasible to pursue for our research.
 
-  
+  <img width="1918" height="897" alt="Screenshot 2026-07-18 144104" src="https://github.com/user-attachments/assets/a178a82b-c447-4c9b-907e-c201bb93f8d6" />
+
 
 
