@@ -234,9 +234,9 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #010: SCHEMATIC REFINING
 
-**Total time spent: 23 mins**
+**Total time spent: 4 mins**
 
-- I added something new to the schematic, which would be a mini560, a buck converter so that esc could supply energy to the microcontroller.
+- I also updated the schematic by adding a Mini560 buck converter. This allows the ESC to supply a stable regulated voltage to the microcontroller instead of powering it directly from the battery. The buck converter steps down the battery voltage to a level that is safe for the microcontroller and other low voltage electronics, improving the reliability and safety of the power distribution system.
 
 <img width="713" height="737" alt="Screenshot 2026-07-09 220412" src="https://github.com/user-attachments/assets/0cf83e75-781d-4ee8-8baf-3c5f3e2fa02c" />
 
