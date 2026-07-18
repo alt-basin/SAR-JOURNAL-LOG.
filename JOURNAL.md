@@ -244,6 +244,8 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/SCHEMATIC/SCHEMATIC.pdf
 
 # DEVLOG #011: Motor Mounting Issue and Assembly Lesson
 
+**Total time spent: 3 Minute**
+
 <img width="1756" height="996" alt="5b88c2b6-0f94-4790-9b57-e16fb2b95f28" src="https://github.com/user-attachments/assets/135f9d00-3efa-4403-a635-288d64581544" />
 
 *Figure X. Example of motor winding damage observed after assembly.
