@@ -271,7 +271,7 @@ This image shows one example of the damage found on the brushless motors. While 
 
 # DEVLOG #013: HEADSUP
 
-**Total time spent: 32s**
+**Total time spent: 1 Minute**
 
 - Hello again, just be reminded I had to re-sync the entries because i had to add parsed time "Total time spent: 3 Minutes", since i thought it should be "duration: ". okay good bye.
 
