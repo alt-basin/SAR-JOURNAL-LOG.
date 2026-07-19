@@ -1,6 +1,6 @@
 # DEVLOG #001: INTRODUCTION
 
- **Duration:** pre-repo work
+ **Total Time Spent: 5 minutes** pre-repo work
  
  first ever log for the drone, i have already created the schematic, though i will need to continue creating the <br> drones
  pcb to hold the parts which may take a long time. So lets start by discussing the parts of the drone.
@@ -16,7 +16,7 @@
 ---
 # DEVLOG #002: INTRO TO SCHEMATIC
 
- **Duration:** pre-repo work
+ **Total Time Spent: 1 hour** pre-repo work
 
    ### SENSORS:
    
@@ -77,7 +77,7 @@
 ---
 # DEVLOG #003: DRONE FRAME 
 
- **Total Time Spent:** pre-repo work
+ **Total Time Spent: 17 minutes** 
 
  - The drone frame assembly was completed after the M3 nuts arrived. Below is a showcase of the finished frame from multiple angles.
   
