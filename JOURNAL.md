@@ -284,14 +284,14 @@ This image shows one example of the damage found on the brushless motors. While 
 
  # DEVLOG #014: FENDERS FOR THE DRONE
 
- **Total time spent: 54 Minute 23 Seonconds**
+ **Total time spent: 34 Minute 23 Seonconds**
+ 
+**6:32 pm**
 
 <img width="798" height="601" alt="Screenshot 2026-07-20 183040" src="https://github.com/user-attachments/assets/ea012e89-df40-4098-8bd1-189017568df3" />
 <img width="712" height="497" alt="Screenshot 2026-07-20 183047" src="https://github.com/user-attachments/assets/9a4da026-bcf5-4478-9e09-b34210ab0f20" />
 
 *Figure X shows an example of Joseph Fraser's prop guard design. This design is particularly useful during testing because it helps protect the propellers from accidental impacts with walls, obstacles, or other objects during indoor flight. It also improves safety by reducing the risk of damage to both the drone and its surroundings, making it well suited for prototype development and testing.*
-
-**6:32 pm**
 
 - Hello! A while back, while working on my SAR drone, I realized that the entire research is mainly intended for indoor use. Because of that, I decided that adding prop guards would make the drone much safer during testing.
 
