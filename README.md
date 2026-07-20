@@ -110,16 +110,16 @@
       <td><a href="https://shopee.ph/product/53025630/22476350635" target="_blank">View Product</a></td>
     </tr>
     <tr>
-      <td><strong>45A 4-in-1 ESC</strong></td>
+      <td><strong>55A 4-in-1 ESC</strong></td>
       <td>Controls the speed and direction of each brushless motor by regulating electrical power from the battery.</td>
       <td>Enables precise motor control for stable flight, attitude correction, and autonomous maneuvers.</td>
-      <td><a href="https://shopee.ph/product/936939040/27822252961" target="_blank">View Product</a></td>
+      <td><a href="https://shopee.ph/product/709543365/28338653787" target="_blank">View Product</a></td>
     </tr>
     <tr style="background-color: #f2f2f2;">
-      <td><strong>4S 3300mAh 60C LiPo Battery</strong></td>
+      <td><strong>6S 5200mAh 60C LiPo Battery</strong></td>
       <td>Supplies electrical power to the motors, flight controller, sensors, and other onboard electronics.</td>
       <td>Acts as the drone's primary power source, providing sufficient energy for flight operations and autonomous missions.</td>
-      <td><a href="https://shopee.ph/product/1400944485/29387091211" target="_blank">View Product</a></td>
+      <td>—</td>
     </tr>
     <tr style="background-color: #f2f2f2;">
       <td><strong>PRO MINI560</strong></td>
