@@ -278,4 +278,26 @@ This image shows one example of the damage found on the brushless motors. While 
 - Hello again, just be reminded I had to re-sync the entries because i had to add parsed time "Total time spent: 3 Minutes", since i thought it should be "duration: ". okay good bye.
 
   <img width="988" height="523" alt="Screenshot 2026-07-18 144424" src="https://github.com/user-attachments/assets/31c61a86-eef7-43de-a368-63fec3d63f68" />
- 
+
+ # DEVLOG #014: FENDERS FOR THE DRONE
+
+ **Total time spent: 20 Minute**
+
+<img width="798" height="601" alt="Screenshot 2026-07-20 183040" src="https://github.com/user-attachments/assets/ea012e89-df40-4098-8bd1-189017568df3" />
+<img width="712" height="497" alt="Screenshot 2026-07-20 183047" src="https://github.com/user-attachments/assets/9a4da026-bcf5-4478-9e09-b34210ab0f20" />
+
+*Figure X shows an example of Joseph Fraser's prop guard design. This design is particularly useful during testing because it helps protect the propellers from accidental impacts with walls, obstacles, or other objects during indoor flight. It also improves safety by reducing the risk of damage to both the drone and its surroundings, making it well suited for prototype development and testing.*
+
+6:32 pm
+
+- Hello! A while back, while working on my SAR drone, I realized that the entire research is mainly intended for indoor use. Because of that, I decided that adding prop guards would make the drone much safer during testing.
+
+  At first, I planned to design and create my own prop guards. However, after considering my current schedule, I realized that it would take time away from more important parts of the project. I still need to revise the research paper, especially since the project overview will be reviewed by an engineer, so I want to make sure I use my time wisely.
+
+  Because of this, I decided to use an open source prop guard design instead. This allows me to focus on completing the drone itself while still improving safety for indoor operation.
+
+  The prop guard design I will be using was created by **Joseph Fraser**. You can find it here:
+
+https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bumpers/files
+
+- I would like to give full credit to Joseph Fraser for creating and sharing this design with the community.
