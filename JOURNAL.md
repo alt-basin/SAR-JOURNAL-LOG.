@@ -130,7 +130,7 @@ https://github.com/alt-basin/SAR-JOURNAL-LOG./blob/main/Schematics%2BPCB/Schemat
 
 # DEVLOG #006: MEASUREMENTS FOR PCB
 
-**Duration: 26 mins 28 seconds**
+**Total Time Spent: 26 mins 28 seconds**
 
 - I decided to measure the drone frame (shown below) so I can use it as a reference for the PCB's shape, which will host the ESP32-S3-WROOM-1, IMU (Inertial   Measurement Unit), and other components.
 
