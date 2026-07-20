@@ -282,7 +282,7 @@ This image shows one example of the damage found on the brushless motors. While 
 
 ---
 
- # DEVLOG #014: FENDERS FOR THE DRONE
+# DEVLOG #014: FENDERS FOR THE DRONE
 
  **Total time spent: 34 Minute 23 Seonconds**
  
