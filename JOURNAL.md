@@ -284,14 +284,14 @@ This image shows one example of the damage found on the brushless motors. While 
 
  # DEVLOG #014: FENDERS FOR THE DRONE
 
- **Total time spent: 20 Minute**
+ **Total time spent: 54 Minute 23 Seonconds**
 
 <img width="798" height="601" alt="Screenshot 2026-07-20 183040" src="https://github.com/user-attachments/assets/ea012e89-df40-4098-8bd1-189017568df3" />
 <img width="712" height="497" alt="Screenshot 2026-07-20 183047" src="https://github.com/user-attachments/assets/9a4da026-bcf5-4478-9e09-b34210ab0f20" />
 
 *Figure X shows an example of Joseph Fraser's prop guard design. This design is particularly useful during testing because it helps protect the propellers from accidental impacts with walls, obstacles, or other objects during indoor flight. It also improves safety by reducing the risk of damage to both the drone and its surroundings, making it well suited for prototype development and testing.*
 
-6:32 pm
+**6:32 pm**
 
 - Hello! A while back, while working on my SAR drone, I realized that the entire research is mainly intended for indoor use. Because of that, I decided that adding prop guards would make the drone much safer during testing.
 
@@ -304,3 +304,14 @@ This image shows one example of the damage found on the brushless motors. While 
 https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bumpers/files
 
 - I would like to give full credit to Joseph Fraser for creating and sharing this design with the community.
+
+**8:51 pm**
+
+<img width="503" height="726" alt="Screenshot 2026-07-20 202609" src="https://github.com/user-attachments/assets/53754654-fae5-45a3-b89c-ed224f5f12d5" />
+
+*Figure X showcases the current status of the schematic*
+
+- While refining the Project Overview, I made a few revisions to the schematic. In the updated version, you'll notice that I connected the CS pin of the ICM-20602 to GPIO32 after realizing there would be a pin conflict between two of the sensors.
+
+  I also decided to change one of the drone's major components: the battery. Instead of using the original 4S 3300 mAh 60C LiPo battery, I switched to a 6S 5200 mAh 60C Li
+
