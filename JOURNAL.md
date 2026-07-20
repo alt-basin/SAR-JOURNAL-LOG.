@@ -315,3 +315,4 @@ https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bump
 
   I also decided to change one of the drone's major components: the battery. Instead of using the original 4S 3300 mAh 60C LiPo battery, I switched to a 6S 5200 mAh 60C LiPo battery. While this configuration results in a shorter estimated flight time, it is the more practical and cost effective option. Since I already own the 6S battery, I only need to purchase a compatible ESC, whereas the 4S configuration would require purchasing both a new battery and an ESC. This change allows me to reduce the overall project cost while maintaining compatibility with the selected propulsion system.
 
+---
