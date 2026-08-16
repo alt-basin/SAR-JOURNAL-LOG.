@@ -336,6 +336,7 @@ https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bump
   </tr>
  </tbody>
 </table>
+
 **3:48 pm**
 
 <table>
@@ -376,4 +377,40 @@ Because the bolt could no longer be removed without causing additional damage, t
   </tbody>
 </table>
 
+**4:18 pm**
 
+<table>
+ <thead>
+  <tr>
+   <td>
+   <img width="2048" height="921" alt="770883777_1440110324676812_8643678499963505015_n" src="https://github.com/user-attachments/assets/5a4739be-1551-41e2-a728-e42d9bd8d3bb" />
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>
+    Here is the new design of the drone frame. I combined the two frame designs to create a stronger and more durable build. The new frame features thicker arms and a thicker base plate, providing better structural support and making it more resistant to stress and damage during assembly and flight.
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table>
+ <tbody>
+  <tr>
+   <td>
+    I forgot to mention that I decided to look for another model for the drone fenders because the previous design was too expensive to print. I found a printing service that charges only around ₱270 per arm, compared to the previous store's ₱900 per arm, which significantly reduces the overall cost.
+
+The new fender model is from Printables and was created by Duck Vault. Credit goes to the original creator for the design.
+
+<a href="https://www.printables.com/model/1248120-propeller-guards-for-mk4-7-inch-drone">Click here to view the model!</a>
+   </td>
+   <td>
+    <img width="1080" height="1992" alt="772352717_1229023113631590_6512868241765153967_n" src="https://github.com/user-attachments/assets/8e951aac-eaa8-4f46-8acd-a567b932760c" />
+   </td>
+   <td>
+    <img width="1080" height="2034" alt="773981383_2539140863223956_5410443673940220438_n" src="https://github.com/user-attachments/assets/f99b3da2-596b-4917-8893-766ad95fd81b" />
+   </td>
+  </tr>
+ </tbody>
+</table>
