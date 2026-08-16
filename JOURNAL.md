@@ -284,7 +284,7 @@ This image shows one example of the damage found on the brushless motors. While 
 
 # DEVLOG #014: FENDERS FOR THE DRONE
 
- **Total time spent: 34 Minute 23 Seonconds**
+ **Total time spent: 34 Minutes 23 Seonconds**
  
 **6:32 pm**
 
@@ -316,3 +316,64 @@ https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bump
   I also decided to change one of the drone's major components: the battery. Instead of using the original 4S 3300 mAh 60C LiPo battery, I switched to a 6S 5200 mAh 60C LiPo battery. While this configuration results in a shorter estimated flight time, it is the more practical and cost effective option. Since I already own the 6S battery, I only need to purchase a compatible ESC, whereas the 4S configuration would require purchasing both a new battery and an ESC. This change allows me to reduce the overall project cost while maintaining compatibility with the selected propulsion system.
 
 ---
+
+# DEVLOG #015: UPDATE
+
+ **Total time spent: 2 hours 30 minute**
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <img width="1174" height="749" alt="Screenshot 2026-08-16 161453" src="https://github.com/user-attachments/assets/32ce0318-dac4-41d0-a537-ed09a4278244" />
+
+   </td>
+  </tr> 
+  <tr>
+   <td>
+- Hello! you might be wondering why there isnt much activity on this repository, thats because last week we had our title defense. I was preparing my groups research paper (Chapter 1 and 2) about the robot, i had to do most of the work since i was the leader. and during this, i had incidents that happen during re arranging the drone frame
+   </td>
+  </tr>
+ </tbody>
+</table>
+**3:48 pm**
+
+<table>
+  <thead>
+    <tr>
+      <th>Document for the Incident</th>
+      <th>Figure 1</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align: justify; vertical-align: top;">
+
+During the assembly and modification of the drone, the frame had to be rearranged to accommodate the other components. While securing one of the BLDC (Brushless DC) motors, one of the M3 bolts became difficult to remove and its threads were also damaged. The bolt eventually became stuck, preventing the M3 Allen driver from properly engaging with it.
+
+Several methods were attempted to remove the bolt:
+
+1. <b>Rubber band method</b> – A rubber band was placed between the bolt and the Allen driver to provide additional grip. However, the rubber band was too weak and eventually tore without removing the bolt.
+
+2. <b>Pliers</b> – Pliers were used to grip the bolt, but this only caused scratches and cosmetic damage to the frame.
+
+3. <b>M3 Allen driver</b> – The Allen driver was used again in an attempt to loosen the bolt, but the bolt head became further damaged, making it increasingly difficult to remove.
+
+4. <b>Side-cutting pliers</b> – As a final attempt, side pliers were used to remove the stuck bolt. Unfortunately, the attempt resulted in further damage to the drone frame.
+
+Because the bolt could no longer be removed without causing additional damage, the affected part of the frame was damaged beyond practical use. A replacement frame was therefore purchased.
+      </td>
+      <td style="vertical-align: top; text-align: center;">
+        <img width="379" height="549"
+             alt="Damaged drone frame arm"
+             src="https://github.com/user-attachments/assets/959db86f-64c7-4dce-be83-ddd310b21b8a">
+        <br><br>
+        <i>Figure 1. Damaged drone frame arm where the BLDC motor was mounted.</i>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
