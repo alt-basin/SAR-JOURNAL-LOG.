@@ -326,7 +326,6 @@ https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bump
   <tr>
    <td>
     <img width="1174" height="749" alt="Screenshot 2026-08-16 161453" src="https://github.com/user-attachments/assets/32ce0318-dac4-41d0-a537-ed09a4278244" />
-
    </td>
   </tr> 
   <tr>
@@ -349,7 +348,7 @@ https://www.printables.com/model/465552-7-75-inch-fpv-drone-prop-guards-and-bump
 
   <tbody>
     <tr>
-      <td style="text-align: justify; vertical-align: top;">
+      <td>
 
 During the assembly and modification of the drone, the frame had to be rearranged to accommodate the other components. While securing one of the BLDC (Brushless DC) motors, one of the M3 bolts became difficult to remove and its threads were also damaged. The bolt eventually became stuck, preventing the M3 Allen driver from properly engaging with it.
 
@@ -365,7 +364,7 @@ Several methods were attempted to remove the bolt:
 
 Because the bolt could no longer be removed without causing additional damage, the affected part of the frame was damaged beyond practical use. A replacement frame was therefore purchased.
       </td>
-      <td style="vertical-align: top; text-align: center;">
+      <td>
         <img width="379" height="549"
              alt="Damaged drone frame arm"
              src="https://github.com/user-attachments/assets/959db86f-64c7-4dce-be83-ddd310b21b8a">
