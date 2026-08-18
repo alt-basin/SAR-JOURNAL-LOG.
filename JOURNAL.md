@@ -1,4 +1,4 @@
-# DEVLOG #001: INTRODUCTION
+<img width="1446" height="863" alt="Screenshot 2026-08-18 124444" src="https://github.com/user-attachments/assets/a6f9f57c-f542-4cff-bb04-4d6644379c40" /># DEVLOG #001: INTRODUCTION
 
  **Total Time Spent: 5 minutes** pre-repo work
  
@@ -385,17 +385,16 @@ Because the bolt could no longer be removed without causing additional damage, t
    <img width="2048" height="921" alt="770883777_1440110324676812_8643678499963505015_n" src="https://github.com/user-attachments/assets/5a4739be-1551-41e2-a728-e42d9bd8d3bb" />
    </td>
   </tr>
- </thead>
- <tbody>
   <tr>
    <td>
     Here is the new design of the drone frame. I combined the two frame designs to create a stronger and more durable build. The new frame features thicker arms and a thicker base plate, providing better structural support and making it more resistant to stress and damage during assembly and flight.
    </td>
   </tr>
- </tbody>
+ </thead>
 </table>
+
 <table>
- <tbody>
+ <thead>
   <tr>
    <td>
     I forgot to mention that I decided to look for another model for the drone fenders because the previous design was too expensive to print. I found a printing service that charges only around ₱270 per arm, compared to the previous store's ₱900 per arm, which significantly reduces the overall cost.
@@ -411,5 +410,181 @@ The new fender model is from Printables and was created by Duck Vault. Credit go
     <img width="1080" height="2034" alt="773981383_2539140863223956_5410443673940220438_n" src="https://github.com/user-attachments/assets/f99b3da2-596b-4917-8893-766ad95fd81b" />
    </td>
   </tr>
+ </thead>
+</table>
+
+---
+
+# DEVLOG #015: HARDWARE UPDATE
+
+<table>
+ <thead>
+ <tr>
+  <td>
+   <img width="1446" height="863" alt="Screenshot 2026-08-18 124444" src="https://github.com/user-attachments/assets/4d6ed2c8-bc7e-4843-b3a9-b3e376df40e0" />
+  </td>
+ </tr>
+ <tr>
+  <td>
+ - Hello!, you may notice that the format of Devlog #014 is weird, thats because i used tables on the repo which wasnt properly formated on the website but yeah.
+  </td>
+ </tr>
+ </thead>
+</table>
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    Soo i while back, i decided to optimize the drone to better perform both outdoors and indoors, Soooo i started fidnding sensors that can be used to replcae the current ones (Icm 20602, vl53l1x, and pmw3901). since the teacher told me that because the drone will be operating on an SAR operation, its logical to make the drone also fly outdoors. 
+    
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <img width="2048" height="921" alt="773166296_28166715982948938_3323641777399844770_n" src="https://github.com/user-attachments/assets/26bbc11a-49f6-44c7-9b44-7b03f33edbe3" />
+   </td>
+  </tr>
+  <tr>
+   <td>
+     1.) the first change i did was changing Vl53L1X and PMW3901, i did some research until i realized that i already have a strong sensor that being the
+        MTF-02P. You can also notice that the sensor is super small, i even place a ruler so you could see how small it is. so the reason why im going to use this 
+        mostly because it outclasses the previous sensors.
+   </td>
+  </tr>
+  <tr>
+   <td>
+  <table>
+  <tr>
+    <th>Parameter</th>
+    <th>VL53L1X</th>
+    <th>PMW3901</th>
+    <th>MTF-02P</th>
+  </tr>
+  <tr>
+    <td>Distance error</td>
+    <td>±20 mm (dark) / ±25 mm (ambient light)</td>
+    <td>N/A</td>
+    <td>2 cm (&lt;2m) / 1.5% (&gt;2m)</td>
+  </tr>
+  <tr>
+    <td>Repeatability</td>
+    <td>±0.15–1%</td>
+    <td>N/A</td>
+    <td>Not specified</td>
+  </tr>
+  <tr>
+    <td>Min. working distance</td>
+    <td>4 cm</td>
+    <td>80 mm</td>
+    <td>2 cm (ranging) / 8 cm (flow)</td>
+  </tr>
+  <tr>
+    <td>Max range</td>
+    <td>400 cm</td>
+    <td>∞</td>
+    <td>6 m</td>
+  </tr>
+  <tr>
+    <td>FOV</td>
+    <td>27°</td>
+    <td>42°</td>
+    <td>42° / 2°</td>
+  </tr>
+  <tr>
+    <td>Max speed</td>
+    <td>N/A</td>
+    <td>7.4 rad/s</td>
+    <td>7 m/s @ 1m</td>
+  </tr>
+  <tr>
+    <td>Ambient light min.</td>
+    <td>—</td>
+    <td>110 lux</td>
+    <td>60 lux</td>
+  </tr>
+  <tr>
+    <td>Operating temp</td>
+    <td>−20 to 85°C</td>
+    <td>0 to 40°C</td>
+    <td>−20 to 85°C</td>
+  </tr>
+  <tr>
+    <td>Interface</td>
+    <td>I²C, 400 kHz</td>
+    <td>SPI, 2 MHz</td>
+    <td>UART</td>
+  </tr>
+  </table>
+    </td>
+  </tr>
+  <tr>
+   <td>
+    2.) I decided to switch the ICM-20602 with a stronger one, which would be icm 42688 p since its stronger, thats pretty much it.
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th>Parameter</th>
+    <th>ICM-20602</th>
+    <th>ICM-42688-P</th>
+  </tr>
+  <tr>
+    <td>Gyro noise density</td>
+    <td>4 mdps/√Hz</td>
+    <td>2.8 mdps/√Hz</td>
+  </tr>
+  <tr>
+    <td>Gyro sensitivity error</td>
+    <td>±1%</td>
+    <td>±0.5%</td>
+  </tr>
+  <tr>
+    <td>Gyro ZRO (zero-rate offset)</td>
+    <td>±1 dps</td>
+    <td>±0.5 dps</td>
+  </tr>
+  <tr>
+    <td>Gyro cross-axis sensitivity</td>
+    <td>±1%</td>
+    <td>±1.25%</td>
+  </tr>
+  <tr>
+    <td>Accel noise density</td>
+    <td>100 µg/√Hz</td>
+    <td>65–70 µg/√Hz</td>
+  </tr>
+  <tr>
+    <td>Accel sensitivity error</td>
+    <td>±1%</td>
+    <td>±0.5%</td>
+  </tr>
+  <tr>
+    <td>Accel zero-G offset</td>
+    <td>±25 mg (component) / ±40 mg (board)</td>
+    <td>±20 mg</td>
+  </tr>
+  <tr>
+    <td>Accel cross-axis sensitivity</td>
+    <td>±1%</td>
+    <td>±1%</td>
+  </tr>
+  <tr>
+    <td>Operating temp</td>
+    <td>−40 to 85°C</td>
+    <td>−40 to 85°C</td>
+  </tr>
+  <tr>
+    <td>Interface</td>
+    <td>I²C 400kHz / SPI 10MHz</td>
+    <td>I²C 1MHz / I3C 12.5MHz / SPI 24MHz</td>
+  </tr>
+</table>
+   </td>
+  </tr>
  </tbody>
 </table>
+
+- I wont be editing the Readme for a while since i have allot of work to do, since today is assynchronous i have allot of assignments to do. So thats it for now!
