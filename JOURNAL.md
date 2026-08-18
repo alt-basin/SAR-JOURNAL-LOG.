@@ -417,6 +417,8 @@ The new fender model is from Printables and was created by Duck Vault. Credit go
 
 # DEVLOG #015: HARDWARE UPDATE
 
+ **Total Time Spent: 14 minutes**
+
 <table>
  <thead>
  <tr>
