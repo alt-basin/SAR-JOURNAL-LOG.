@@ -1,4 +1,4 @@
-<img width="1446" height="863" alt="Screenshot 2026-08-18 124444" src="https://github.com/user-attachments/assets/a6f9f57c-f542-4cff-bb04-4d6644379c40" /># DEVLOG #001: INTRODUCTION
+# DEVLOG #001: INTRODUCTION
 
  **Total Time Spent: 5 minutes** pre-repo work
  
@@ -590,3 +590,71 @@ The new fender model is from Printables and was created by Duck Vault. Credit go
 </table>
 
 - I wont be editing the Readme for a while since i have allot of work to do, since today is assynchronous i have allot of assignments to do. So thats it for now!
+
+# DEVLOG #015: PCB Revisions or idk
+
+ **Total Time Spent: 4 hours 34 minutes**
+
+ -Hi! decided to create the pcb today since i got bored. I basically started with the upper part. also be reminded that this is my FIRST TIME ever wiring and adding components (such as thhe JST male 1mm that you will see). so i hope this wont get you mad or anything.
+
+ also even though the design might look like relatively simple, i had to do multiple revisions which took time, tomorrow i have like research paper activities to do and next week, or maybe todays week (22/08/2026) we would have our exams.
+ 
+ <table>
+  <tbody>
+   <tr>
+    <td>
+     <img width="1543" height="697" alt="Screenshot 2026-08-22 160317" src="https://github.com/user-attachments/assets/b3c2a4b7-0c3f-4fdd-8b6c-9711d9b830a3" />
+     <img width="1566" height="769" alt="Screenshot 2026-08-22 160658" src="https://github.com/user-attachments/assets/568f07e4-81f8-4b34-8d72-40cf46452a8a" />
+     <img width="1561" height="763" alt="Screenshot 2026-08-22 160711" src="https://github.com/user-attachments/assets/2998c161-f4ed-4d7f-b9bf-778628463fa7" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+    The PCB above is the custom board I made for the upper part of the drone, which will house the IMU or Inertial Measurement Unit. It is responsible for securely holding the component while also allowing us to connect it to the main PCB without using male jumper wires. Instead, we will use a JST 1.0 mm 6-pin connector, which makes the connection cleaner, more secure, and more organized. I also chose the JST connector because it gives the overall drone a more compact and professional look.
+     <br>
+     <br>
+     Originally, this PCB was supposed to have a different design and layout. It was initially planned to look more like this:
+     <br>
+     <br>
+     <img width="447" alt="Screenshot 2026-07-01 142828" src="https://github.com/user-attachments/assets/18637407-d258-4e27-bc0c-6a6e08ec965e" />
+     <br>
+     <br>
+     This is a very early prototype of the PCB. This design was originally meant to house the ESP32, which acts as the microcontroller, along with the Mini560 power module. However, I realized that I would also need to fit the other navigation sensors and the thermal camera onto this small plate, which would make the PCB too cramped and difficult to work with. It would look something like this:
+     <br>
+     <br>
+     <img width="447" height="416" alt="Screenshot 2026-07-01 142834" src="https://github.com/user-attachments/assets/01b15323-3c82-47f1-9b5a-9480d059a979" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+    <img width="2048" height="921" alt="775183281_2063177181237373_5287926560353745309_n" src="https://github.com/user-attachments/assets/6080c190-a29d-4e03-a2b3-c690b641e177" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+     So here is the visual look on were i will place that part, i circled it with red.
+    </td>
+   </tr>
+
+   <tr>
+    <td>
+     <img width="1548" height="700" alt="Screenshot 2026-08-22 162655" src="https://github.com/user-attachments/assets/d1d44fd1-3084-429d-beef-e8aee923f48c" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <img width="1571" height="769" alt="Screenshot 2026-08-22 163025" src="https://github.com/user-attachments/assets/cd8c021b-9d61-4179-ba8d-d9d069da3101" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <img width="1570" height="769" alt="Screenshot 2026-08-22 163105" src="https://github.com/user-attachments/assets/dd777c1e-a4a2-4181-afa2-99262c7475b9" />
+    </td>
+   </tr>
+   <tr>
+    <td>
+     Now this is relatively a simple piece, i didnt really do much here because i didnt use professional techniques (using formulas) because i was in a hurry, so you may see some mistakes. This is also my first time so i hope you wont criticize or sum.
+    </td>
+   </tr>
+  </tbody>
+ </table>
